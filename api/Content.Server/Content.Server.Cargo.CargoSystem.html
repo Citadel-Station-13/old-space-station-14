@@ -1,0 +1,1023 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CargoSystem
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CargoSystem
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Server.Cargo.CargoSystem">
+  
+  
+  <h1 id="Content_Server_Cargo_CargoSystem" data-uid="Content.Server.Cargo.CargoSystem" class="text-break">Class CargoSystem
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Robust.Shared.GameObjects.EntitySystem</span></div>
+    <div class="level2"><a class="xref" href="../Content.Shared/Content.Shared.Cargo.SharedCargoSystem.html">SharedCargoSystem</a></div>
+    <div class="level3"><span class="xref">CargoSystem</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Robust.Shared.GameObjects.IEntitySystem</span></div>
+    <div><span class="xref">Robust.Shared.GameObjects.IEntityEventSubscriber</span></div>
+  </div>
+  <div class="inheritedMembers">
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Server.Cargo.html">Content.Server.Cargo</a></h6>
+  <h6><strong>Assembly</strong>: Content.Server.dll</h6>
+  <h5 id="Content_Server_Cargo_CargoSystem_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CargoSystem : SharedCargoSystem, IEntitySystem, IEntityEventSubscriber</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_BankAccounts.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.BankAccounts%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L42">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_BankAccounts_" data-uid="Content.Server.Cargo.CargoSystem.BankAccounts*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_BankAccounts" data-uid="Content.Server.Cargo.CargoSystem.BankAccounts">BankAccounts</h4>
+  <div class="markdown level1 summary"><p>Enumeration of all bank accounts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;CargoBankAccount&gt; BankAccounts { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Content.Server.Cargo.CargoBankAccount.html">CargoBankAccount</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_StationAccount.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.StationAccount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L46">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_StationAccount_" data-uid="Content.Server.Cargo.CargoSystem.StationAccount*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_StationAccount" data-uid="Content.Server.Cargo.CargoSystem.StationAccount">StationAccount</h4>
+  <div class="markdown level1 summary"><p>The station's bank account.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CargoBankAccount StationAccount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.Cargo.CargoBankAccount.html">CargoBankAccount</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_StationOrderDatabase.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.StationOrderDatabase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L48">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_StationOrderDatabase_" data-uid="Content.Server.Cargo.CargoSystem.StationOrderDatabase*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_StationOrderDatabase" data-uid="Content.Server.Cargo.CargoSystem.StationOrderDatabase">StationOrderDatabase</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CargoOrderDatabase StationOrderDatabase { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.Cargo.CargoOrderDatabase.html">CargoOrderDatabase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_AddOrder_System_Int32_System_String_System_String_System_String_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.AddOrder(System.Int32%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L165">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_AddOrder_" data-uid="Content.Server.Cargo.CargoSystem.AddOrder*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_AddOrder_System_Int32_System_String_System_String_System_String_System_Int32_System_Int32_" data-uid="Content.Server.Cargo.CargoSystem.AddOrder(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32)">AddOrder(Int32, String, String, String, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddOrder(int id, string requester, string reason, string productId, int amount, int payingAccountId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">requester</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">productId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">payingAccountId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_ApproveOrder_Robust_Shared_GameObjects_EntityUid_Robust_Shared_GameObjects_EntityUid_System_Int32_System_Int32_Content_Shared_Access_Components_AccessReaderComponent_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.ApproveOrder(Robust.Shared.GameObjects.EntityUid%2CRobust.Shared.GameObjects.EntityUid%2CSystem.Int32%2CSystem.Int32%2CContent.Shared.Access.Components.AccessReaderComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L186">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_ApproveOrder_" data-uid="Content.Server.Cargo.CargoSystem.ApproveOrder*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_ApproveOrder_Robust_Shared_GameObjects_EntityUid_Robust_Shared_GameObjects_EntityUid_System_Int32_System_Int32_Content_Shared_Access_Components_AccessReaderComponent_" data-uid="Content.Server.Cargo.CargoSystem.ApproveOrder(Robust.Shared.GameObjects.EntityUid,Robust.Shared.GameObjects.EntityUid,System.Int32,System.Int32,Content.Shared.Access.Components.AccessReaderComponent)">ApproveOrder(EntityUid, EntityUid, Int32, Int32, AccessReaderComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ApproveOrder(EntityUid uid, EntityUid approver, int id, int orderNumber, AccessReaderComponent reader = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">approver</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">orderNumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Access.Components.AccessReaderComponent.html">AccessReaderComponent</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_ChangeBalance_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.ChangeBalance(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L154">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_ChangeBalance_" data-uid="Content.Server.Cargo.CargoSystem.ChangeBalance*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_ChangeBalance_System_Int32_System_Int32_" data-uid="Content.Server.Cargo.CargoSystem.ChangeBalance(System.Int32,System.Int32)">ChangeBalance(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Attempts to change the given account's balance.
+Returns false if there's no account associated with the given ID
+or if the balance would end up being negative.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ChangeBalance(int id, int amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_CheckBalance_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.CheckBalance(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L135">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_CheckBalance_" data-uid="Content.Server.Cargo.CargoSystem.CheckBalance*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_CheckBalance_System_Int32_System_Int32_" data-uid="Content.Server.Cargo.CargoSystem.CheckBalance(System.Int32,System.Int32)">CheckBalance(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Verifies if there is enough money in the account's balance to pay the amount.
+Returns false if there's no account associated with the given ID
+or if the balance would end up being negative.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CheckBalance(int id, int amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_CreateBankAccount_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.CreateBankAccount(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L93">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_CreateBankAccount_" data-uid="Content.Server.Cargo.CargoSystem.CreateBankAccount*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_CreateBankAccount_System_String_System_Int32_" data-uid="Content.Server.Cargo.CargoSystem.CreateBankAccount(System.String,System.Int32)">CreateBankAccount(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new bank account.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateBankAccount(string name, int balance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">balance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_CreateOrderDatabase_System_Int32_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.CreateOrderDatabase(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L100">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_CreateOrderDatabase_" data-uid="Content.Server.Cargo.CargoSystem.CreateOrderDatabase*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_CreateOrderDatabase_System_Int32_" data-uid="Content.Server.Cargo.CargoSystem.CreateOrderDatabase(System.Int32)">CreateOrderDatabase(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateOrderDatabase(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_GetBankAccount_System_Int32_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.GetBankAccount(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L108">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_GetBankAccount_" data-uid="Content.Server.Cargo.CargoSystem.GetBankAccount*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_GetBankAccount_System_Int32_" data-uid="Content.Server.Cargo.CargoSystem.GetBankAccount(System.Int32)">GetBankAccount(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the bank account associated with the given ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CargoBankAccount GetBankAccount(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.Cargo.CargoBankAccount.html">CargoBankAccount</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_GetCapacity_System_Int32_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.GetCapacity(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L218">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_GetCapacity_" data-uid="Content.Server.Cargo.CargoSystem.GetCapacity*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_GetCapacity_System_Int32_" data-uid="Content.Server.Cargo.CargoSystem.GetCapacity(System.Int32)">GetCapacity(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public (int CurrentCapacity, int MaxCapacity) GetCapacity(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_GetOrderDatabase_System_Int32_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.GetOrderDatabase(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L113">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_GetOrderDatabase_" data-uid="Content.Server.Cargo.CargoSystem.GetOrderDatabase*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_GetOrderDatabase_System_Int32_" data-uid="Content.Server.Cargo.CargoSystem.GetOrderDatabase(System.Int32)">GetOrderDatabase(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CargoOrderDatabase GetOrderDatabase(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.Cargo.CargoOrderDatabase.html">CargoOrderDatabase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_Initialize.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.cs/#L14">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_Initialize_" data-uid="Content.Server.Cargo.CargoSystem.Initialize*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_Initialize" data-uid="Content.Server.Cargo.CargoSystem.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Shared.GameObjects.EntitySystem.Initialize()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_QueueTeleport_Content_Server_Cargo_Components_CargoTelepadComponent_Content_Shared_Cargo_CargoOrderData_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.QueueTeleport(Content.Server.Cargo.Components.CargoTelepadComponent%2CContent.Shared.Cargo.CargoOrderData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Telepad.cs/#L83">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_QueueTeleport_" data-uid="Content.Server.Cargo.CargoSystem.QueueTeleport*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_QueueTeleport_Content_Server_Cargo_Components_CargoTelepadComponent_Content_Shared_Cargo_CargoOrderData_" data-uid="Content.Server.Cargo.CargoSystem.QueueTeleport(Content.Server.Cargo.Components.CargoTelepadComponent,Content.Shared.Cargo.CargoOrderData)">QueueTeleport(CargoTelepadComponent, CargoOrderData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueueTeleport(CargoTelepadComponent component, CargoOrderData order)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.Cargo.Components.CargoTelepadComponent.html">CargoTelepadComponent</a></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Cargo.CargoOrderData.html">CargoOrderData</a></td>
+        <td><span class="parametername">order</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_RemoveAndGetApprovedOrders_System_Int32_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.RemoveAndGetApprovedOrders(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L209">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_RemoveAndGetApprovedOrders_" data-uid="Content.Server.Cargo.CargoSystem.RemoveAndGetApprovedOrders*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_RemoveAndGetApprovedOrders_System_Int32_" data-uid="Content.Server.Cargo.CargoSystem.RemoveAndGetApprovedOrders(System.Int32)">RemoveAndGetApprovedOrders(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;CargoOrderData&gt; RemoveAndGetApprovedOrders(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Cargo.CargoOrderData.html">CargoOrderData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_RemoveOrder_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.RemoveOrder(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L177">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_RemoveOrder_" data-uid="Content.Server.Cargo.CargoSystem.RemoveOrder*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_RemoveOrder_System_Int32_System_Int32_" data-uid="Content.Server.Cargo.CargoSystem.RemoveOrder(System.Int32,System.Int32)">RemoveOrder(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveOrder(int id, int orderNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">orderNumber</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_TryGetBankAccount_System_Int32_Content_Server_Cargo_CargoBankAccount__.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.TryGetBankAccount(System.Int32%2CContent.Server.Cargo.CargoBankAccount%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L121">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_TryGetBankAccount_" data-uid="Content.Server.Cargo.CargoSystem.TryGetBankAccount*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_TryGetBankAccount_System_Int32_Content_Server_Cargo_CargoBankAccount__" data-uid="Content.Server.Cargo.CargoSystem.TryGetBankAccount(System.Int32,Content.Server.Cargo.CargoBankAccount@)">TryGetBankAccount(Int32, out CargoBankAccount)</h4>
+  <div class="markdown level1 summary"><p>Returns whether the account exists, eventually passing the account in the out parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetBankAccount(int id, out CargoBankAccount account)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.Cargo.CargoBankAccount.html">CargoBankAccount</a></td>
+        <td><span class="parametername">account</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_TryGetOrderDatabase_System_Int32_Content_Server_Cargo_CargoOrderDatabase__.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.TryGetOrderDatabase(System.Int32%2CContent.Server.Cargo.CargoOrderDatabase%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Console.cs/#L126">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_TryGetOrderDatabase_" data-uid="Content.Server.Cargo.CargoSystem.TryGetOrderDatabase*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_TryGetOrderDatabase_System_Int32_Content_Server_Cargo_CargoOrderDatabase__" data-uid="Content.Server.Cargo.CargoSystem.TryGetOrderDatabase(System.Int32,Content.Server.Cargo.CargoOrderDatabase@)">TryGetOrderDatabase(Int32, out CargoOrderDatabase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetOrderDatabase(int id, out CargoOrderDatabase database)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.Cargo.CargoOrderDatabase.html">CargoOrderDatabase</a></td>
+        <td><span class="parametername">database</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem_Update_System_Single_.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem.Update(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.cs/#L21">View Source</a>
+  </span>
+  <a id="Content_Server_Cargo_CargoSystem_Update_" data-uid="Content.Server.Cargo.CargoSystem.Update*"></a>
+  <h4 id="Content_Server_Cargo_CargoSystem_Update_System_Single_" data-uid="Content.Server.Cargo.CargoSystem.Update(System.Single)">Update(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Update(float frameTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">frameTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Shared.GameObjects.EntitySystem.Update(System.Single)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Robust.Shared.GameObjects.IEntitySystem</span>
+  </div>
+  <div>
+      <span class="xref">Robust.Shared.GameObjects.IEntityEventSubscriber</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Cargo_CargoSystem.md&amp;value=---%0Auid%3A%20Content.Server.Cargo.CargoSystem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Cargo/CargoSystem.Telepad.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

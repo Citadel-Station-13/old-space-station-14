@@ -1,0 +1,2063 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GameTicker
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GameTicker
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Server.GameTicking.GameTicker">
+  
+  
+  <h1 id="Content_Server_GameTicking_GameTicker" data-uid="Content.Server.GameTicking.GameTicker" class="text-break">Class GameTicker
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Robust.Shared.GameObjects.EntitySystem</span></div>
+    <div class="level2"><a class="xref" href="../Content.Shared/Content.Shared.GameTicking.SharedGameTicker.html">SharedGameTicker</a></div>
+    <div class="level3"><span class="xref">GameTicker</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Robust.Shared.GameObjects.IEntitySystem</span></div>
+    <div><span class="xref">Robust.Shared.GameObjects.IEntityEventSubscriber</span></div>
+  </div>
+  <div class="inheritedMembers">
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Server.GameTicking.html">Content.Server.GameTicking</a></h6>
+  <h6><strong>Assembly</strong>: Content.Server.dll</h6>
+  <h5 id="Content_Server_GameTicking_GameTicker_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class GameTicker : SharedGameTicker, IEntitySystem, IEntityEventSubscriber</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_PresetFailedCooldownIncrease.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.PresetFailedCooldownIncrease%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GamePreset.cs/#L18">View Source</a>
+  </span>
+  <h4 id="Content_Server_GameTicking_GameTicker_PresetFailedCooldownIncrease" data-uid="Content.Server.GameTicking.GameTicker.PresetFailedCooldownIncrease">PresetFailedCooldownIncrease</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const float PresetFailedCooldownIncrease = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_AddedGameRules.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.AddedGameRules%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GameRule.cs/#L12">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_AddedGameRules_" data-uid="Content.Server.GameTicking.GameTicker.AddedGameRules*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_AddedGameRules" data-uid="Content.Server.GameTicking.GameTicker.AddedGameRules">AddedGameRules</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;GameRulePrototype&gt; AddedGameRules { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Content.Server.GameTicking.Rules.GameRulePrototype.html">GameRulePrototype</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_DefaultMap.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.DefaultMap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.cs/#L35">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_DefaultMap_" data-uid="Content.Server.GameTicking.GameTicker.DefaultMap*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_DefaultMap" data-uid="Content.Server.GameTicking.GameTicker.DefaultMap">DefaultMap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MapId DefaultMap { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Map.MapId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_DisallowLateJoin.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.DisallowLateJoin%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.CVars.cs/#L18">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_DisallowLateJoin_" data-uid="Content.Server.GameTicking.GameTicker.DisallowLateJoin*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_DisallowLateJoin" data-uid="Content.Server.GameTicking.GameTicker.DisallowLateJoin">DisallowLateJoin</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DisallowLateJoin { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_DummyTicker.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.DummyTicker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.CVars.cs/#L12">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_DummyTicker_" data-uid="Content.Server.GameTicking.GameTicker.DummyTicker*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_DummyTicker" data-uid="Content.Server.GameTicking.GameTicker.DummyTicker">DummyTicker</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DummyTicker { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_LobbyBackground.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.LobbyBackground%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.LobbyBackground.cs/#L16">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_LobbyBackground_" data-uid="Content.Server.GameTicking.GameTicker.LobbyBackground*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_LobbyBackground" data-uid="Content.Server.GameTicking.GameTicker.LobbyBackground">LobbyBackground</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? LobbyBackground { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_LobbyDuration.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.LobbyDuration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.CVars.cs/#L15">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_LobbyDuration_" data-uid="Content.Server.GameTicking.GameTicker.LobbyDuration*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_LobbyDuration" data-uid="Content.Server.GameTicking.GameTicker.LobbyDuration">LobbyDuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan LobbyDuration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_LobbyEnabled.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.LobbyEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.CVars.cs/#L9">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_LobbyEnabled_" data-uid="Content.Server.GameTicking.GameTicker.LobbyEnabled*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_LobbyEnabled" data-uid="Content.Server.GameTicking.GameTicker.LobbyEnabled">LobbyEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LobbyEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_LobbySong.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.LobbySong%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.LobbyMusic.cs/#L18">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_LobbySong_" data-uid="Content.Server.GameTicking.GameTicker.LobbySong*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_LobbySong" data-uid="Content.Server.GameTicking.GameTicker.LobbySong">LobbySong</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? LobbySong { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_MaxStationOffset.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.MaxStationOffset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.CVars.cs/#L27">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_MaxStationOffset_" data-uid="Content.Server.GameTicking.GameTicker.MaxStationOffset*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_MaxStationOffset" data-uid="Content.Server.GameTicking.GameTicker.MaxStationOffset">MaxStationOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxStationOffset { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_Paused.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.Paused%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Lobby.cs/#L27">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_Paused_" data-uid="Content.Server.GameTicking.GameTicker.Paused*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_Paused" data-uid="Content.Server.GameTicking.GameTicker.Paused">Paused</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Paused { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_PlayersInGame.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.PlayersInGame%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Lobby.cs/#L34">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_PlayersInGame_" data-uid="Content.Server.GameTicking.GameTicker.PlayersInGame*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_PlayersInGame" data-uid="Content.Server.GameTicking.GameTicker.PlayersInGame">PlayersInGame</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlySet&lt;NetUserId&gt; PlayersInGame { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlySet</span>&lt;<span class="xref">Robust.Shared.Network.NetUserId</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_PlayersInLobby.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.PlayersInLobby%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Lobby.cs/#L33">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_PlayersInLobby_" data-uid="Content.Server.GameTicking.GameTicker.PlayersInLobby*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_PlayersInLobby" data-uid="Content.Server.GameTicking.GameTicker.PlayersInLobby">PlayersInLobby</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyDictionary&lt;IPlayerSession, LobbyPlayerStatus&gt; PlayersInLobby { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">Robust.Server.Player.IPlayerSession</span>, <a class="xref" href="../Content.Shared/Content.Shared.GameTicking.LobbyPlayerStatus.html">LobbyPlayerStatus</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_RoundId.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.RoundId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.RoundFlow.cs/#L64">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_RoundId_" data-uid="Content.Server.GameTicking.GameTicker.RoundId*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_RoundId" data-uid="Content.Server.GameTicking.GameTicker.RoundId">RoundId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RoundId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_RoundStartFailShutdownCount.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.RoundStartFailShutdownCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.CVars.cs/#L31">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_RoundStartFailShutdownCount_" data-uid="Content.Server.GameTicking.GameTicker.RoundStartFailShutdownCount*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_RoundStartFailShutdownCount" data-uid="Content.Server.GameTicking.GameTicker.RoundStartFailShutdownCount">RoundStartFailShutdownCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RoundStartFailShutdownCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_RunLevel.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.RunLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.RoundFlow.cs/#L48">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_RunLevel_" data-uid="Content.Server.GameTicking.GameTicker.RunLevel*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_RunLevel" data-uid="Content.Server.GameTicking.GameTicker.RunLevel">RunLevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameRunLevel RunLevel { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.GameTicking.GameRunLevel.html">GameRunLevel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_StartedGameRules.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.StartedGameRules%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GameRule.cs/#L15">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_StartedGameRules_" data-uid="Content.Server.GameTicking.GameTicker.StartedGameRules*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_StartedGameRules" data-uid="Content.Server.GameTicking.GameTicker.StartedGameRules">StartedGameRules</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;GameRulePrototype&gt; StartedGameRules { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Content.Server.GameTicking.Rules.GameRulePrototype.html">GameRulePrototype</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_StationOffset.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.StationOffset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.CVars.cs/#L21">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_StationOffset_" data-uid="Content.Server.GameTicking.GameTicker.StationOffset*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_StationOffset" data-uid="Content.Server.GameTicking.GameTicker.StationOffset">StationOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool StationOffset { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_StationRotation.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.StationRotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.CVars.cs/#L24">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_StationRotation_" data-uid="Content.Server.GameTicking.GameTicker.StationRotation*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_StationRotation" data-uid="Content.Server.GameTicking.GameTicker.StationRotation">StationRotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool StationRotation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_AddGameRule_Content_Server_GameTicking_Rules_GameRulePrototype_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.AddGameRule(Content.Server.GameTicking.Rules.GameRulePrototype)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GameRule.cs/#L52">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_AddGameRule_" data-uid="Content.Server.GameTicking.GameTicker.AddGameRule*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_AddGameRule_Content_Server_GameTicking_Rules_GameRulePrototype_" data-uid="Content.Server.GameTicking.GameTicker.AddGameRule(Content.Server.GameTicking.Rules.GameRulePrototype)">AddGameRule(GameRulePrototype)</h4>
+  <div class="markdown level1 summary"><p>Adds a game rule to the list, but does not
+start it yet, instead waiting until roundstart.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddGameRule(GameRulePrototype rule)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.GameTicking.Rules.GameRulePrototype.html">GameRulePrototype</a></td>
+        <td><span class="parametername">rule</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_ChooseRandomLobbySong.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.ChooseRandomLobbySong%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.LobbyMusic.cs/#L54">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_ChooseRandomLobbySong_" data-uid="Content.Server.GameTicking.GameTicker.ChooseRandomLobbySong*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_ChooseRandomLobbySong" data-uid="Content.Server.GameTicking.GameTicker.ChooseRandomLobbySong">ChooseRandomLobbySong()</h4>
+  <div class="markdown level1 summary"><p>Plays a random song from the LobbyMusic sound collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChooseRandomLobbySong()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_ClearGameRules.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.ClearGameRules%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GameRule.cs/#L93">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_ClearGameRules_" data-uid="Content.Server.GameTicking.GameTicker.ClearGameRules*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_ClearGameRules" data-uid="Content.Server.GameTicking.GameTicker.ClearGameRules">ClearGameRules()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGameRules()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_DelayStart_TimeSpan_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.DelayStart(TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.RoundFlow.cs/#L472">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_DelayStart_" data-uid="Content.Server.GameTicking.GameTicker.DelayStart*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_DelayStart_TimeSpan_" data-uid="Content.Server.GameTicking.GameTicker.DelayStart(TimeSpan)">DelayStart(TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DelayStart(TimeSpan time)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td><span class="parametername">time</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_EndGameRule_Content_Server_GameTicking_Rules_GameRulePrototype_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.EndGameRule(Content.Server.GameTicking.Rules.GameRulePrototype)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GameRule.cs/#L36">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_EndGameRule_" data-uid="Content.Server.GameTicking.GameTicker.EndGameRule*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_EndGameRule_Content_Server_GameTicking_Rules_GameRulePrototype_" data-uid="Content.Server.GameTicking.GameTicker.EndGameRule(Content.Server.GameTicking.Rules.GameRulePrototype)">EndGameRule(GameRulePrototype)</h4>
+  <div class="markdown level1 summary"><p>Ends a game rule.
+This always includes removing it (removing it from added game rules) so that behavior
+is not separate from this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndGameRule(GameRulePrototype rule)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.GameTicking.Rules.GameRulePrototype.html">GameRulePrototype</a></td>
+        <td><span class="parametername">rule</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_EndRound_System_String_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.EndRound(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.RoundFlow.cs/#L293">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_EndRound_" data-uid="Content.Server.GameTicking.GameTicker.EndRound*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_EndRound_System_String_" data-uid="Content.Server.GameTicking.GameTicker.EndRound(System.String)">EndRound(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndRound(string text = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_EquipIdCard_EntityUid_System_String_Content_Shared_Roles_JobPrototype_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.EquipIdCard(EntityUid%2CSystem.String%2CContent.Shared.Roles.JobPrototype)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Spawning.cs/#L336">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_EquipIdCard_" data-uid="Content.Server.GameTicking.GameTicker.EquipIdCard*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_EquipIdCard_EntityUid_System_String_Content_Shared_Roles_JobPrototype_" data-uid="Content.Server.GameTicking.GameTicker.EquipIdCard(EntityUid,System.String,Content.Shared.Roles.JobPrototype)">EquipIdCard(EntityUid, String, JobPrototype)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EquipIdCard(EntityUid entity, string characterName, JobPrototype jobPrototype)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityUid</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">characterName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Roles.JobPrototype.html">JobPrototype</a></td>
+        <td><span class="parametername">jobPrototype</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_EquipStartingGear_EntityUid_Content_Shared_Roles_StartingGearPrototype_Content_Shared_Preferences_HumanoidCharacterProfile_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.EquipStartingGear(EntityUid%2CContent.Shared.Roles.StartingGearPrototype%2CContent.Shared.Preferences.HumanoidCharacterProfile)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Spawning.cs/#L309">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_EquipStartingGear_" data-uid="Content.Server.GameTicking.GameTicker.EquipStartingGear*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_EquipStartingGear_EntityUid_Content_Shared_Roles_StartingGearPrototype_Content_Shared_Preferences_HumanoidCharacterProfile_" data-uid="Content.Server.GameTicking.GameTicker.EquipStartingGear(EntityUid,Content.Shared.Roles.StartingGearPrototype,Content.Shared.Preferences.HumanoidCharacterProfile)">EquipStartingGear(EntityUid, StartingGearPrototype, HumanoidCharacterProfile)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EquipStartingGear(EntityUid entity, StartingGearPrototype startingGear, HumanoidCharacterProfile profile)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityUid</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Roles.StartingGearPrototype.html">StartingGearPrototype</a></td>
+        <td><span class="parametername">startingGear</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Preferences.HumanoidCharacterProfile.html">HumanoidCharacterProfile</a></td>
+        <td><span class="parametername">profile</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_FindGamePreset_System_String_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.FindGamePreset(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GamePreset.cs/#L100">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_FindGamePreset_" data-uid="Content.Server.GameTicking.GameTicker.FindGamePreset*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_FindGamePreset_System_String_" data-uid="Content.Server.GameTicking.GameTicker.FindGamePreset(System.String)">FindGamePreset(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GamePresetPrototype FindGamePreset(string preset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">preset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.GameTicking.Presets.GamePresetPrototype.html">GamePresetPrototype</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_GameRuleAdded_Content_Server_GameTicking_Rules_GameRulePrototype_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.GameRuleAdded(Content.Server.GameTicking.Rules.GameRulePrototype)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GameRule.cs/#L61">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_GameRuleAdded_" data-uid="Content.Server.GameTicking.GameTicker.GameRuleAdded*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_GameRuleAdded_Content_Server_GameTicking_Rules_GameRulePrototype_" data-uid="Content.Server.GameTicking.GameTicker.GameRuleAdded(Content.Server.GameTicking.Rules.GameRulePrototype)">GameRuleAdded(GameRulePrototype)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GameRuleAdded(GameRulePrototype rule)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.GameTicking.Rules.GameRulePrototype.html">GameRulePrototype</a></td>
+        <td><span class="parametername">rule</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_GameRuleAdded_System_String_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.GameRuleAdded(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GameRule.cs/#L66">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_GameRuleAdded_" data-uid="Content.Server.GameTicking.GameTicker.GameRuleAdded*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_GameRuleAdded_System_String_" data-uid="Content.Server.GameTicking.GameTicker.GameRuleAdded(System.String)">GameRuleAdded(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GameRuleAdded(string rule)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">rule</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_GameRuleStarted_Content_Server_GameTicking_Rules_GameRulePrototype_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.GameRuleStarted(Content.Server.GameTicking.Rules.GameRulePrototype)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GameRule.cs/#L77">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_GameRuleStarted_" data-uid="Content.Server.GameTicking.GameTicker.GameRuleStarted*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_GameRuleStarted_Content_Server_GameTicking_Rules_GameRulePrototype_" data-uid="Content.Server.GameTicking.GameTicker.GameRuleStarted(Content.Server.GameTicking.Rules.GameRulePrototype)">GameRuleStarted(GameRulePrototype)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GameRuleStarted(GameRulePrototype rule)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.GameTicking.Rules.GameRulePrototype.html">GameRulePrototype</a></td>
+        <td><span class="parametername">rule</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_GameRuleStarted_System_String_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.GameRuleStarted(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GameRule.cs/#L82">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_GameRuleStarted_" data-uid="Content.Server.GameTicking.GameTicker.GameRuleStarted*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_GameRuleStarted_System_String_" data-uid="Content.Server.GameTicking.GameTicker.GameRuleStarted(System.String)">GameRuleStarted(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GameRuleStarted(string rule)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">rule</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_GetJobSpawnPoint_System_String_Content_Shared_Station_StationId_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.GetJobSpawnPoint(System.String%2CContent.Shared.Station.StationId)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Spawning.cs/#L361">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_GetJobSpawnPoint_" data-uid="Content.Server.GameTicking.GameTicker.GetJobSpawnPoint*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_GetJobSpawnPoint_System_String_Content_Shared_Station_StationId_" data-uid="Content.Server.GameTicking.GameTicker.GetJobSpawnPoint(System.String,Content.Shared.Station.StationId)">GetJobSpawnPoint(String, StationId)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityCoordinates GetJobSpawnPoint(string jobId, StationId station)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">jobId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Content.Shared.Station.StationId</span></td>
+        <td><span class="parametername">station</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Map.EntityCoordinates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_GetLateJoinSpawnPoint_Content_Shared_Station_StationId_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.GetLateJoinSpawnPoint(Content.Shared.Station.StationId)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Spawning.cs/#L386">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_GetLateJoinSpawnPoint_" data-uid="Content.Server.GameTicking.GameTicker.GetLateJoinSpawnPoint*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_GetLateJoinSpawnPoint_Content_Shared_Station_StationId_" data-uid="Content.Server.GameTicking.GameTicker.GetLateJoinSpawnPoint(Content.Shared.Station.StationId)">GetLateJoinSpawnPoint(StationId)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityCoordinates GetLateJoinSpawnPoint(StationId station)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Content.Shared.Station.StationId</span></td>
+        <td><span class="parametername">station</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Map.EntityCoordinates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_GetObserverSpawnPoint.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.GetObserverSpawnPoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Spawning.cs/#L410">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_GetObserverSpawnPoint_" data-uid="Content.Server.GameTicking.GameTicker.GetObserverSpawnPoint*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_GetObserverSpawnPoint" data-uid="Content.Server.GameTicking.GameTicker.GetObserverSpawnPoint">GetObserverSpawnPoint()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityCoordinates GetObserverSpawnPoint()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Map.EntityCoordinates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_Initialize.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.cs/#L39">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_Initialize_" data-uid="Content.Server.GameTicking.GameTicker.Initialize*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_Initialize" data-uid="Content.Server.GameTicking.GameTicker.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Shared.GameObjects.EntitySystem.Initialize()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_MakeJoinGame_Robust_Server_Player_IPlayerSession_Content_Shared_Station_StationId_System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.MakeJoinGame(Robust.Server.Player.IPlayerSession%2CContent.Shared.Station.StationId%2CSystem.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Spawning.cs/#L237">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_MakeJoinGame_" data-uid="Content.Server.GameTicking.GameTicker.MakeJoinGame*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_MakeJoinGame_Robust_Server_Player_IPlayerSession_Content_Shared_Station_StationId_System_Nullable_System_String__" data-uid="Content.Server.GameTicking.GameTicker.MakeJoinGame(Robust.Server.Player.IPlayerSession,Content.Shared.Station.StationId,System.Nullable{System.String})">MakeJoinGame(IPlayerSession, StationId, Nullable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MakeJoinGame(IPlayerSession player, StationId station, string? jobId = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Server.Player.IPlayerSession</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Content.Shared.Station.StationId</span></td>
+        <td><span class="parametername">station</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">jobId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_MakeObserve_Robust_Server_Player_IPlayerSession_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.MakeObserve(Robust.Server.Player.IPlayerSession)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Spawning.cs/#L249">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_MakeObserve_" data-uid="Content.Server.GameTicking.GameTicker.MakeObserve*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_MakeObserve_Robust_Server_Player_IPlayerSession_" data-uid="Content.Server.GameTicking.GameTicker.MakeObserve(Robust.Server.Player.IPlayerSession)">MakeObserve(IPlayerSession)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MakeObserve(IPlayerSession player)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Server.Player.IPlayerSession</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_OnGhostAttempt_Content_Server_Mind_Mind_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.OnGhostAttempt(Content.Server.Mind.Mind%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GamePreset.cs/#L148">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_OnGhostAttempt_" data-uid="Content.Server.GameTicking.GameTicker.OnGhostAttempt*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_OnGhostAttempt_Content_Server_Mind_Mind_System_Boolean_" data-uid="Content.Server.GameTicking.GameTicker.OnGhostAttempt(Content.Server.Mind.Mind,System.Boolean)">OnGhostAttempt(Mind, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OnGhostAttempt(Mind mind, bool canReturnGlobal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.Mind.Mind.html">Mind</a></td>
+        <td><span class="parametername">mind</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">canReturnGlobal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_PauseStart_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.PauseStart(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Lobby.cs/#L95">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_PauseStart_" data-uid="Content.Server.GameTicking.GameTicker.PauseStart*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_PauseStart_System_Boolean_" data-uid="Content.Server.GameTicking.GameTicker.PauseStart(System.Boolean)">PauseStart(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PauseStart(bool pause = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">pause</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_PlayerJoinGame_Robust_Server_Player_IPlayerSession_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.PlayerJoinGame(Robust.Server.Player.IPlayerSession)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Player.cs/#L130">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_PlayerJoinGame_" data-uid="Content.Server.GameTicking.GameTicker.PlayerJoinGame*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_PlayerJoinGame_Robust_Server_Player_IPlayerSession_" data-uid="Content.Server.GameTicking.GameTicker.PlayerJoinGame(Robust.Server.Player.IPlayerSession)">PlayerJoinGame(IPlayerSession)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayerJoinGame(IPlayerSession session)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Server.Player.IPlayerSession</span></td>
+        <td><span class="parametername">session</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_PostInitialize.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.PostInitialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.cs/#L61">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_PostInitialize_" data-uid="Content.Server.GameTicking.GameTicker.PostInitialize*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_PostInitialize" data-uid="Content.Server.GameTicking.GameTicker.PostInitialize">PostInitialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PostInitialize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_Respawn_Robust_Server_Player_IPlayerSession_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.Respawn(Robust.Server.Player.IPlayerSession)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Spawning.cs/#L226">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_Respawn_" data-uid="Content.Server.GameTicking.GameTicker.Respawn*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_Respawn_Robust_Server_Player_IPlayerSession_" data-uid="Content.Server.GameTicking.GameTicker.Respawn(Robust.Server.Player.IPlayerSession)">Respawn(IPlayerSession)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Respawn(IPlayerSession player)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Server.Player.IPlayerSession</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_RestartRound.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.RestartRound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.RoundFlow.cs/#L372">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_RestartRound_" data-uid="Content.Server.GameTicking.GameTicker.RestartRound*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_RestartRound" data-uid="Content.Server.GameTicking.GameTicker.RestartRound">RestartRound()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RestartRound()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_RoundDuration.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.RoundDuration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.RoundFlow.cs/#L505">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_RoundDuration_" data-uid="Content.Server.GameTicking.GameTicker.RoundDuration*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_RoundDuration" data-uid="Content.Server.GameTicking.GameTicker.RoundDuration">RoundDuration()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan RoundDuration()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_SetGamePreset_Content_Server_GameTicking_Presets_GamePresetPrototype_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.SetGamePreset(Content.Server.GameTicking.Presets.GamePresetPrototype%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GamePreset.cs/#L78">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_SetGamePreset_" data-uid="Content.Server.GameTicking.GameTicker.SetGamePreset*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_SetGamePreset_Content_Server_GameTicking_Presets_GamePresetPrototype_System_Boolean_" data-uid="Content.Server.GameTicking.GameTicker.SetGamePreset(Content.Server.GameTicking.Presets.GamePresetPrototype,System.Boolean)">SetGamePreset(GamePresetPrototype, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetGamePreset(GamePresetPrototype preset, bool force = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.GameTicking.Presets.GamePresetPrototype.html">GamePresetPrototype</a></td>
+        <td><span class="parametername">preset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_SetGamePreset_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.SetGamePreset(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GamePreset.cs/#L93">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_SetGamePreset_" data-uid="Content.Server.GameTicking.GameTicker.SetGamePreset*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_SetGamePreset_System_String_System_Boolean_" data-uid="Content.Server.GameTicking.GameTicker.SetGamePreset(System.String,System.Boolean)">SetGamePreset(String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetGamePreset(string preset, bool force = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">preset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_SetLobbySong_System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.SetLobbySong(System.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.LobbyMusic.cs/#L36">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_SetLobbySong_" data-uid="Content.Server.GameTicking.GameTicker.SetLobbySong*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_SetLobbySong_System_Nullable_System_String__" data-uid="Content.Server.GameTicking.GameTicker.SetLobbySong(System.Nullable{System.String})">SetLobbySong(Nullable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the current lobby song, or stops it if null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLobbySong(string? song)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">song</span></td>
+        <td><p>The lobby song to play, or null to stop any lobby songs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_StartGameRule_Content_Server_GameTicking_Rules_GameRulePrototype_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.StartGameRule(Content.Server.GameTicking.Rules.GameRulePrototype)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GameRule.cs/#L21">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_StartGameRule_" data-uid="Content.Server.GameTicking.GameTicker.StartGameRule*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_StartGameRule_Content_Server_GameTicking_Rules_GameRulePrototype_" data-uid="Content.Server.GameTicking.GameTicker.StartGameRule(Content.Server.GameTicking.Rules.GameRulePrototype)">StartGameRule(GameRulePrototype)</h4>
+  <div class="markdown level1 summary"><p>Game rules can be 'started' separately from being added. 'Starting' them usually
+happens at round start while they can be added and removed before then.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartGameRule(GameRulePrototype rule)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.GameTicking.Rules.GameRulePrototype.html">GameRulePrototype</a></td>
+        <td><span class="parametername">rule</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_StartRound_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.StartRound(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.RoundFlow.cs/#L170">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_StartRound_" data-uid="Content.Server.GameTicking.GameTicker.StartRound*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_StartRound_System_Boolean_" data-uid="Content.Server.GameTicking.GameTicker.StartRound(System.Boolean)">StartRound(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartRound(bool force = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_StopLobbySong.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.StopLobbySong%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.LobbyMusic.cs/#L63">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_StopLobbySong_" data-uid="Content.Server.GameTicking.GameTicker.StopLobbySong*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_StopLobbySong" data-uid="Content.Server.GameTicking.GameTicker.StopLobbySong">StopLobbySong()</h4>
+  <div class="markdown level1 summary"><p>Stops the current lobby song being played.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopLobbySong()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_TogglePause.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.TogglePause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Lobby.cs/#L122">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_TogglePause_" data-uid="Content.Server.GameTicking.GameTicker.TogglePause*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_TogglePause" data-uid="Content.Server.GameTicking.GameTicker.TogglePause">TogglePause()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TogglePause()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_ToggleReady_Robust_Server_Player_IPlayerSession_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.ToggleReady(Robust.Server.Player.IPlayerSession%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Lobby.cs/#L128">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_ToggleReady_" data-uid="Content.Server.GameTicking.GameTicker.ToggleReady*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_ToggleReady_Robust_Server_Player_IPlayerSession_System_Boolean_" data-uid="Content.Server.GameTicking.GameTicker.ToggleReady(Robust.Server.Player.IPlayerSession,System.Boolean)">ToggleReady(IPlayerSession, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleReady(IPlayerSession player, bool ready)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Server.Player.IPlayerSession</span></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ready</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_TryFindGamePreset_System_String_Content_Server_GameTicking_Presets_GamePresetPrototype__.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.TryFindGamePreset(System.String%2CContent.Server.GameTicking.Presets.GamePresetPrototype%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.GamePreset.cs/#L117">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_TryFindGamePreset_" data-uid="Content.Server.GameTicking.GameTicker.TryFindGamePreset*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_TryFindGamePreset_System_String_Content_Server_GameTicking_Presets_GamePresetPrototype__" data-uid="Content.Server.GameTicking.GameTicker.TryFindGamePreset(System.String,Content.Server.GameTicking.Presets.GamePresetPrototype@)">TryFindGamePreset(String, out GamePresetPrototype)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryFindGamePreset(string preset, out GamePresetPrototype prototype)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">preset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.GameTicking.Presets.GamePresetPrototype.html">GamePresetPrototype</a></td>
+        <td><span class="parametername">prototype</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_Update_System_Single_.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.Update(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.cs/#L80">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_Update_" data-uid="Content.Server.GameTicking.GameTicker.Update*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_Update_System_Single_" data-uid="Content.Server.GameTicking.GameTicker.Update(System.Single)">Update(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Update(float frameTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">frameTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Shared.GameObjects.EntitySystem.Update(System.Single)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker_UpdateJobsAvailable.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker.UpdateJobsAvailable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.JobController.cs/#L191">View Source</a>
+  </span>
+  <a id="Content_Server_GameTicking_GameTicker_UpdateJobsAvailable_" data-uid="Content.Server.GameTicking.GameTicker.UpdateJobsAvailable*"></a>
+  <h4 id="Content_Server_GameTicking_GameTicker_UpdateJobsAvailable" data-uid="Content.Server.GameTicking.GameTicker.UpdateJobsAvailable">UpdateJobsAvailable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateJobsAvailable()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Robust.Shared.GameObjects.IEntitySystem</span>
+  </div>
+  <div>
+      <span class="xref">Robust.Shared.GameObjects.IEntityEventSubscriber</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_GameTicking_GameTicker.md&amp;value=---%0Auid%3A%20Content.Server.GameTicking.GameTicker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/GameTicking/GameTicker.Updates.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,937 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SharedBodyPartComponent
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SharedBodyPartComponent
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent">
+  
+  
+  <h1 id="Content_Shared_Body_Components_SharedBodyPartComponent" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent" class="text-break">Class SharedBodyPartComponent
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Robust.Shared.GameObjects.Component</span></div>
+    <div class="level2"><span class="xref">SharedBodyPartComponent</span></div>
+      <div class="level3"><a class="xref" href="../Content.Client/Content.Client.Body.Components.BodyPartComponent.html">BodyPartComponent</a></div>
+      <div class="level3"><a class="xref" href="../Content.Server/Content.Server.Body.Components.BodyPartComponent.html">BodyPartComponent</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Robust.Shared.GameObjects.IComponent</span></div>
+  </div>
+  <div class="inheritedMembers">
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Shared.Body.Components.html">Content.Shared.Body.Components</a></h6>
+  <h6><strong>Assembly</strong>: Content.Shared.dll</h6>
+  <h5 id="Content_Shared_Body_Components_SharedBodyPartComponent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class SharedBodyPartComponent : Component, IComponent</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_Compatibility.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.Compatibility%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L84">View Source</a>
+  </span>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_Compatibility" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.Compatibility">Compatibility</h4>
+  <div class="markdown level1 summary"><p>What types of BodyParts this <a class="xref" href="Content.Shared.Body.Components.SharedBodyPartComponent.html">SharedBodyPartComponent</a> can easily attach to.
+For the most part, most limbs aren't universal and require extra work to
+attach between types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BodyPartCompatibility Compatibility</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Part.BodyPartCompatibility.html">BodyPartCompatibility</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_IsVital.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.IsVital%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L97">View Source</a>
+  </span>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_IsVital" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.IsVital">IsVital</h4>
+  <div class="markdown level1 summary"><p>Whether or not the owning <a class="xref" href="Content.Shared.Body.Components.SharedBodyPartComponent.html#Content_Shared_Body_Components_SharedBodyPartComponent_Body">Body</a> will die if all
+<a class="xref" href="Content.Shared.Body.Components.SharedBodyPartComponent.html">SharedBodyPartComponent</a>s of this type are removed from it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsVital</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_Symmetry.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.Symmetry%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L101">View Source</a>
+  </span>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_Symmetry" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.Symmetry">Symmetry</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BodyPartSymmetry Symmetry</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Part.BodyPartSymmetry.html">BodyPartSymmetry</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_Body.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.Body%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L31">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_Body_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.Body*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_Body" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.Body">Body</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SharedBodyComponent Body { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Components.SharedBodyComponent.html">SharedBodyComponent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_MechanismIds.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.MechanismIds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L26">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_MechanismIds_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.MechanismIds*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_MechanismIds" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.MechanismIds">MechanismIds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;string&gt; MechanismIds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_Mechanisms.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.Mechanisms%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L87">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_Mechanisms_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.Mechanisms*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_Mechanisms" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.Mechanisms">Mechanisms</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;MechanismComponent&gt; Mechanisms { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyCollection</span>&lt;<a class="xref" href="Content.Shared.Body.Components.MechanismComponent.html">MechanismComponent</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_PartType.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.PartType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L62">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_PartType_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.PartType*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_PartType" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.PartType">PartType</h4>
+  <div class="markdown level1 summary"><p><a class="xref" href="Content.Shared.Body.Part.BodyPartType.html">BodyPartType</a> that this <see cref="!:IBodyPart"></see> is considered
+to be.
+For example, <a class="xref" href="Content.Shared.Body.Part.BodyPartType.html#Content_Shared_Body_Part_BodyPartType_Arm">Arm</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BodyPartType PartType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Part.BodyPartType.html">BodyPartType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_Size.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.Size%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L70">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_Size_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.Size*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_Size" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.Size">Size</h4>
+  <div class="markdown level1 summary"><p>Determines how many mechanisms can be fit inside this
+<a class="xref" href="Content.Shared.Body.Components.SharedBodyPartComponent.html">SharedBodyPartComponent</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Size { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_SizeUsed.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.SizeUsed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L72">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_SizeUsed_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.SizeUsed*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_SizeUsed" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.SizeUsed">SizeUsed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SizeUsed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_CanAddMechanism_Content_Shared_Body_Components_MechanismComponent_.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.CanAddMechanism(Content.Shared.Body.Components.MechanismComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L169">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_CanAddMechanism_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.CanAddMechanism*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_CanAddMechanism_Content_Shared_Body_Components_MechanismComponent_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.CanAddMechanism(Content.Shared.Body.Components.MechanismComponent)">CanAddMechanism(MechanismComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanAddMechanism(MechanismComponent mechanism)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Components.MechanismComponent.html">MechanismComponent</a></td>
+        <td><span class="parametername">mechanism</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_DeleteMechanism_Content_Shared_Body_Components_MechanismComponent_.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.DeleteMechanism(Content.Shared.Body.Components.MechanismComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L249">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_DeleteMechanism_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.DeleteMechanism*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_DeleteMechanism_Content_Shared_Body_Components_MechanismComponent_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.DeleteMechanism(Content.Shared.Body.Components.MechanismComponent)">DeleteMechanism(MechanismComponent)</h4>
+  <div class="markdown level1 summary"><p>Tries to destroy the given <a class="xref" href="Content.Shared.Body.Components.MechanismComponent.html">MechanismComponent</a> from
+this part.
+The mechanism won't be deleted if it is not in this body part.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DeleteMechanism(MechanismComponent mechanism)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Components.MechanismComponent.html">MechanismComponent</a></td>
+        <td><span class="parametername">mechanism</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the mechanism was in this body part and destroyed,
+false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_GetComponentState.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.GetComponentState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L127">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_GetComponentState_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.GetComponentState*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_GetComponentState" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.GetComponentState">GetComponentState()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ComponentState GetComponentState()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.ComponentState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Shared.GameObjects.Component.GetComponentState()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_Gib.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.Gib%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L296">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_Gib_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.Gib*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_Gib" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.Gib">Gib()</h4>
+  <div class="markdown level1 summary"><p>Gibs the body part.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Gib()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_HandleComponentState_Robust_Shared_GameObjects_ComponentState_Robust_Shared_GameObjects_ComponentState_.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.HandleComponentState(Robust.Shared.GameObjects.ComponentState%2CRobust.Shared.GameObjects.ComponentState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L141">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_HandleComponentState_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.HandleComponentState*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_HandleComponentState_Robust_Shared_GameObjects_ComponentState_Robust_Shared_GameObjects_ComponentState_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.HandleComponentState(Robust.Shared.GameObjects.ComponentState,Robust.Shared.GameObjects.ComponentState)">HandleComponentState(ComponentState, ComponentState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void HandleComponentState(ComponentState curState, ComponentState nextState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.ComponentState</span></td>
+        <td><span class="parametername">curState</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.ComponentState</span></td>
+        <td><span class="parametername">nextState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Shared.GameObjects.Component.HandleComponentState(Robust.Shared.GameObjects.ComponentState, Robust.Shared.GameObjects.ComponentState)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_OnAddedToBody_Content_Shared_Body_Components_SharedBodyComponent_.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.OnAddedToBody(Content.Shared.Body.Components.SharedBodyComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L289">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_OnAddedToBody_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.OnAddedToBody*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_OnAddedToBody_Content_Shared_Body_Components_SharedBodyComponent_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.OnAddedToBody(Content.Shared.Body.Components.SharedBodyComponent)">OnAddedToBody(SharedBodyComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnAddedToBody(SharedBodyComponent body)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Components.SharedBodyComponent.html">SharedBodyComponent</a></td>
+        <td><span class="parametername">body</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_OnAddMechanism_Content_Shared_Body_Components_MechanismComponent_.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.OnAddMechanism(Content.Shared.Body.Components.MechanismComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L103">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_OnAddMechanism_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.OnAddMechanism*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_OnAddMechanism_Content_Shared_Body_Components_MechanismComponent_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.OnAddMechanism(Content.Shared.Body.Components.MechanismComponent)">OnAddMechanism(MechanismComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnAddMechanism(MechanismComponent mechanism)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Components.MechanismComponent.html">MechanismComponent</a></td>
+        <td><span class="parametername">mechanism</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_OnRemovedFromBody_Content_Shared_Body_Components_SharedBodyComponent_.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.OnRemovedFromBody(Content.Shared.Body.Components.SharedBodyComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L291">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_OnRemovedFromBody_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.OnRemovedFromBody*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_OnRemovedFromBody_Content_Shared_Body_Components_SharedBodyComponent_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.OnRemovedFromBody(Content.Shared.Body.Components.SharedBodyComponent)">OnRemovedFromBody(SharedBodyComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnRemovedFromBody(SharedBodyComponent old)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Components.SharedBodyComponent.html">SharedBodyComponent</a></td>
+        <td><span class="parametername">old</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_OnRemoveMechanism_Content_Shared_Body_Components_MechanismComponent_.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.OnRemoveMechanism(Content.Shared.Body.Components.MechanismComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L118">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_OnRemoveMechanism_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.OnRemoveMechanism*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_OnRemoveMechanism_Content_Shared_Body_Components_MechanismComponent_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.OnRemoveMechanism(Content.Shared.Body.Components.MechanismComponent)">OnRemoveMechanism(MechanismComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnRemoveMechanism(MechanismComponent mechanism)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Components.MechanismComponent.html">MechanismComponent</a></td>
+        <td><span class="parametername">mechanism</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_RemoveMechanism_Content_Shared_Body_Components_MechanismComponent_.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.RemoveMechanism(Content.Shared.Body.Components.MechanismComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L208">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_RemoveMechanism_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.RemoveMechanism*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_RemoveMechanism_Content_Shared_Body_Components_MechanismComponent_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.RemoveMechanism(Content.Shared.Body.Components.MechanismComponent)">RemoveMechanism(MechanismComponent)</h4>
+  <div class="markdown level1 summary"><p>Tries to remove the given <see cref="!:mechanism"></see> from this part.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveMechanism(MechanismComponent mechanism)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Components.MechanismComponent.html">MechanismComponent</a></td>
+        <td><span class="parametername">mechanism</span></td>
+        <td><p>The mechanism to remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if it was removed, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_RemoveMechanism_Content_Shared_Body_Components_MechanismComponent_Robust_Shared_Map_EntityCoordinates_.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.RemoveMechanism(Content.Shared.Body.Components.MechanismComponent%2CRobust.Shared.Map.EntityCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L229">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_RemoveMechanism_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.RemoveMechanism*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_RemoveMechanism_Content_Shared_Body_Components_MechanismComponent_Robust_Shared_Map_EntityCoordinates_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.RemoveMechanism(Content.Shared.Body.Components.MechanismComponent,Robust.Shared.Map.EntityCoordinates)">RemoveMechanism(MechanismComponent, EntityCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Tries to remove the given <see cref="!:mechanism"></see> from this
+part and drops it at the specified coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveMechanism(MechanismComponent mechanism, EntityCoordinates coordinates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Components.MechanismComponent.html">MechanismComponent</a></td>
+        <td><span class="parametername">mechanism</span></td>
+        <td><p>The mechanism to remove.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Map.EntityCoordinates</span></td>
+        <td><span class="parametername">coordinates</span></td>
+        <td><p>The coordinates to drop it at.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if it was removed, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent_TryAddMechanism_Content_Shared_Body_Components_MechanismComponent_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent.TryAddMechanism(Content.Shared.Body.Components.MechanismComponent%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L184">View Source</a>
+  </span>
+  <a id="Content_Shared_Body_Components_SharedBodyPartComponent_TryAddMechanism_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.TryAddMechanism*"></a>
+  <h4 id="Content_Shared_Body_Components_SharedBodyPartComponent_TryAddMechanism_Content_Shared_Body_Components_MechanismComponent_System_Boolean_" data-uid="Content.Shared.Body.Components.SharedBodyPartComponent.TryAddMechanism(Content.Shared.Body.Components.MechanismComponent,System.Boolean)">TryAddMechanism(MechanismComponent, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tries to add a <a class="xref" href="Content.Shared.Body.Components.MechanismComponent.html">MechanismComponent</a> to this part.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryAddMechanism(MechanismComponent mechanism, bool force = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Shared.Body.Components.MechanismComponent.html">MechanismComponent</a></td>
+        <td><span class="parametername">mechanism</span></td>
+        <td><p>The mechanism to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
+        <td><p>Whether or not to check if the mechanism is compatible.
+Passing true does not guarantee it to be added, for example if
+it was already added before.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if added, false otherwise even if it was already added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Robust.Shared.GameObjects.IComponent</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Content.Shared.CharacterAppearance.HumanoidVisualLayersExtension.html#Content_Shared_CharacterAppearance_HumanoidVisualLayersExtension_ToHumanoidLayers_Content_Shared_Body_Components_SharedBodyPartComponent_">HumanoidVisualLayersExtension.ToHumanoidLayers(SharedBodyPartComponent)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Shared_Body_Components_SharedBodyPartComponent.md&amp;value=---%0Auid%3A%20Content.Shared.Body.Components.SharedBodyPartComponent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Shared/Body/Components/SharedBodyPartComponent.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

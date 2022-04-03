@@ -1,0 +1,670 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PathfindingRegion
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PathfindingRegion
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion">
+  
+  
+  <h1 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion" class="text-break">Class PathfindingRegion
+  </h1>
+  <div class="markdown level0 summary"><p>A group of homogenous PathfindingNodes inside a single chunk</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PathfindingRegion</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Server.AI.Pathfinding.Accessible.html">Content.Server.AI.Pathfinding.Accessible</a></h6>
+  <h6><strong>Assembly</strong>: Content.Server.dll</h6>
+  <h5 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PathfindingRegion : IEquatable&lt;PathfindingRegion&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion__ctor_Content_Server_AI_Pathfinding_PathfindingNode_HashSet_Content_Server_AI_Pathfinding_PathfindingNode__System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.%23ctor(Content.Server.AI.Pathfinding.PathfindingNode%2CHashSet%7BContent.Server.AI.Pathfinding.PathfindingNode%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L38">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion__ctor_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.#ctor*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion__ctor_Content_Server_AI_Pathfinding_PathfindingNode_HashSet_Content_Server_AI_Pathfinding_PathfindingNode__System_Boolean_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.#ctor(Content.Server.AI.Pathfinding.PathfindingNode,HashSet{Content.Server.AI.Pathfinding.PathfindingNode},System.Boolean)">PathfindingRegion(PathfindingNode, HashSet&lt;PathfindingNode&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PathfindingRegion(PathfindingNode originNode, HashSet&lt;PathfindingNode&gt; nodes, bool isDoor = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.AI.Pathfinding.PathfindingNode.html">PathfindingNode</a></td>
+        <td><span class="parametername">originNode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="Content.Server.AI.Pathfinding.PathfindingNode.html">PathfindingNode</a>&gt;</td>
+        <td><span class="parametername">nodes</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isDoor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Deleted.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Deleted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L36">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Deleted_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Deleted*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Deleted" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Deleted">Deleted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Deleted { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Height.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Height%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L22">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Height_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Height*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Height" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Height">Height</h4>
+  <div class="markdown level1 summary"><p>Maximum width of the nodes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Height { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_IsDoor.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.IsDoor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L32">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_IsDoor_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.IsDoor*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_IsDoor" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.IsDoor">IsDoor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDoor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Neighbors.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Neighbors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L30">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Neighbors_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Neighbors*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Neighbors" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Neighbors">Neighbors</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;PathfindingRegion&gt; Neighbors { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.html">PathfindingRegion</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Nodes.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Nodes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L33">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Nodes_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Nodes*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Nodes" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Nodes">Nodes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;PathfindingNode&gt; Nodes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="Content.Server.AI.Pathfinding.PathfindingNode.html">PathfindingNode</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_OriginNode.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.OriginNode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L15">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_OriginNode_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.OriginNode*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_OriginNode" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.OriginNode">OriginNode</h4>
+  <div class="markdown level1 summary"><p>Bottom-left reference node of the region</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PathfindingNode OriginNode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.AI.Pathfinding.PathfindingNode.html">PathfindingNode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_ParentChunk.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.ParentChunk%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L29">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_ParentChunk_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.ParentChunk*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_ParentChunk" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.ParentChunk">ParentChunk</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PathfindingChunk ParentChunk { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.AI.Pathfinding.PathfindingChunk.html">PathfindingChunk</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Width.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L27">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Width_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Width*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Width" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Width">Width</h4>
+  <div class="markdown level1 summary"><p>Maximum width of the nodes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Width { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Add_Content_Server_AI_Pathfinding_PathfindingNode_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Add(Content.Server.AI.Pathfinding.PathfindingNode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L107">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Add_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Add*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Add_Content_Server_AI_Pathfinding_PathfindingNode_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Add(Content.Server.AI.Pathfinding.PathfindingNode)">Add(PathfindingNode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(PathfindingNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.AI.Pathfinding.PathfindingNode.html">PathfindingNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Distance_Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Distance(Content.Server.AI.Pathfinding.Accessible.PathfindingRegion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L67">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Distance_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Distance*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Distance_Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Distance(Content.Server.AI.Pathfinding.Accessible.PathfindingRegion)">Distance(PathfindingRegion)</h4>
+  <div class="markdown level1 summary"><p>Roughly how far away another region is by nearest node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Distance(PathfindingRegion otherRegion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.html">PathfindingRegion</a></td>
+        <td><span class="parametername">otherRegion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Equals_Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Equals(Content.Server.AI.Pathfinding.Accessible.PathfindingRegion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L126">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Equals_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Equals*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Equals_Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Equals(Content.Server.AI.Pathfinding.Accessible.PathfindingRegion)">Equals(PathfindingRegion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(PathfindingRegion other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.html">PathfindingRegion</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_GetHashCode.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L136">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_GetHashCode_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.GetHashCode*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_GetHashCode" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_RegionTraversable_Content_Server_AI_Pathfinding_Accessible_ReachableArgs_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.RegionTraversable(Content.Server.AI.Pathfinding.Accessible.ReachableArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L99">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_RegionTraversable_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.RegionTraversable*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_RegionTraversable_Content_Server_AI_Pathfinding_Accessible_ReachableArgs_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.RegionTraversable(Content.Server.AI.Pathfinding.Accessible.ReachableArgs)">RegionTraversable(ReachableArgs)</h4>
+  <div class="markdown level1 summary"><p>Can the given args can traverse this region?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RegionTraversable(ReachableArgs reachableArgs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.AI.Pathfinding.Accessible.ReachableArgs.html">ReachableArgs</a></td>
+        <td><span class="parametername">reachableArgs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Shutdown.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Shutdown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L45">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Shutdown_" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Shutdown*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_Accessible_PathfindingRegion_Shutdown" data-uid="Content.Server.AI.Pathfinding.Accessible.PathfindingRegion.Shutdown">Shutdown()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Shutdown()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_Accessible_PathfindingRegion.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.Accessible.PathfindingRegion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/Accessible/PathfindingRegion.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

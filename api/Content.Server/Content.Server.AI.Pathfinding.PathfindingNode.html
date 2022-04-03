@@ -1,0 +1,587 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PathfindingNode
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PathfindingNode
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Server.AI.Pathfinding.PathfindingNode">
+  
+  
+  <h1 id="Content_Server_AI_Pathfinding_PathfindingNode" data-uid="Content.Server.AI.Pathfinding.PathfindingNode" class="text-break">Class PathfindingNode
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PathfindingNode</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Server.AI.Pathfinding.html">Content.Server.AI.Pathfinding</a></h6>
+  <h6><strong>Assembly</strong>: Content.Server.dll</h6>
+  <h5 id="Content_Server_AI_Pathfinding_PathfindingNode_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PathfindingNode : object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode__ctor_Content_Server_AI_Pathfinding_PathfindingChunk_Robust_Shared_Map_TileRef_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.%23ctor(Content.Server.AI.Pathfinding.PathfindingChunk%2CRobust.Shared.Map.TileRef)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L39">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode__ctor_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.#ctor*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode__ctor_Content_Server_AI_Pathfinding_PathfindingChunk_Robust_Shared_Map_TileRef_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.#ctor(Content.Server.AI.Pathfinding.PathfindingChunk,Robust.Shared.Map.TileRef)">PathfindingNode(PathfindingChunk, TileRef)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PathfindingNode(PathfindingChunk parent, TileRef tileRef)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.AI.Pathfinding.PathfindingChunk.html">PathfindingChunk</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Map.TileRef</span></td>
+        <td><span class="parametername">tileRef</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode_AccessReaders.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.AccessReaders%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L36">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode_AccessReaders_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.AccessReaders*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode_AccessReaders" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.AccessReaders">AccessReaders</h4>
+  <div class="markdown level1 summary"><p>The entities on this tile that require access to traverse</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;AccessReaderComponent&gt; AccessReaders { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyCollection</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Access.Components.AccessReaderComponent.html">AccessReaderComponent</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode_BlockedCollisionMask.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.BlockedCollisionMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L26">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode_BlockedCollisionMask_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.BlockedCollisionMask*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode_BlockedCollisionMask" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.BlockedCollisionMask">BlockedCollisionMask</h4>
+  <div class="markdown level1 summary"><p>Whenever there's a change in the collision layers we update the mask as the graph has more reads than writes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BlockedCollisionMask { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode_ParentChunk.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.ParentChunk%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L18">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode_ParentChunk_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.ParentChunk*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode_ParentChunk" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.ParentChunk">ParentChunk</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PathfindingChunk ParentChunk { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.AI.Pathfinding.PathfindingChunk.html">PathfindingChunk</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode_PhysicsLayers.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.PhysicsLayers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L29">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode_PhysicsLayers_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.PhysicsLayers*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode_PhysicsLayers" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.PhysicsLayers">PhysicsLayers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyDictionary&lt;EntityUid, int&gt; PhysicsLayers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">Robust.Shared.GameObjects.EntityUid</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode_TileRef.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.TileRef%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L21">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode_TileRef_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.TileRef*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode_TileRef" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.TileRef">TileRef</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TileRef TileRef { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Map.TileRef</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode_AddEntity_Robust_Shared_GameObjects_EntityUid_Robust_Shared_Physics_IPhysBody_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.AddEntity(Robust.Shared.GameObjects.EntityUid%2CRobust.Shared.Physics.IPhysBody)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L262">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode_AddEntity_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.AddEntity*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode_AddEntity_Robust_Shared_GameObjects_EntityUid_Robust_Shared_Physics_IPhysBody_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.AddEntity(Robust.Shared.GameObjects.EntityUid,Robust.Shared.Physics.IPhysBody)">AddEntity(EntityUid, IPhysBody)</h4>
+  <div class="markdown level1 summary"><p>Call if this entity is relevant for the pathfinder</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddEntity(EntityUid entity, IPhysBody physicsComponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Physics.IPhysBody</span></td>
+        <td><span class="parametername">physicsComponent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode_GetNeighbor_Robust_Shared_Maths_Direction_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.GetNeighbor(Robust.Shared.Maths.Direction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L101">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode_GetNeighbor_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.GetNeighbor*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode_GetNeighbor_Robust_Shared_Maths_Direction_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.GetNeighbor(Robust.Shared.Maths.Direction)">GetNeighbor(Direction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PathfindingNode GetNeighbor(Direction direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Maths.Direction</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Server.AI.Pathfinding.PathfindingNode.html">PathfindingNode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode_GetNeighbors.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.GetNeighbors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L61">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode_GetNeighbors_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.GetNeighbors*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode_GetNeighbors" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.GetNeighbors">GetNeighbors()</h4>
+  <div class="markdown level1 summary"><p>Return our neighboring nodes (even across chunks)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;PathfindingNode&gt; GetNeighbors()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Content.Server.AI.Pathfinding.PathfindingNode.html">PathfindingNode</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode_IsRelevant_Robust_Shared_GameObjects_EntityUid_Robust_Shared_Physics_IPhysBody_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.IsRelevant(Robust.Shared.GameObjects.EntityUid%2CRobust.Shared.Physics.IPhysBody)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L46">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode_IsRelevant_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.IsRelevant*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode_IsRelevant_Robust_Shared_GameObjects_EntityUid_Robust_Shared_Physics_IPhysBody_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.IsRelevant(Robust.Shared.GameObjects.EntityUid,Robust.Shared.Physics.IPhysBody)">IsRelevant(EntityUid, IPhysBody)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRelevant(EntityUid entity, IPhysBody physicsComponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Physics.IPhysBody</span></td>
+        <td><span class="parametername">physicsComponent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode_RemoveEntity_Robust_Shared_GameObjects_EntityUid_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.RemoveEntity(Robust.Shared.GameObjects.EntityUid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L299">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode_RemoveEntity_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.RemoveEntity*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode_RemoveEntity_Robust_Shared_GameObjects_EntityUid_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.RemoveEntity(Robust.Shared.GameObjects.EntityUid)">RemoveEntity(EntityUid)</h4>
+  <div class="markdown level1 summary"><p>Remove the entity from this node.
+Will check each category and remove it from the applicable one</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveEntity(EntityUid entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode_UpdateTile_Robust_Shared_Map_TileRef_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode.UpdateTile(Robust.Shared.Map.TileRef)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L250">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Pathfinding_PathfindingNode_UpdateTile_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.UpdateTile*"></a>
+  <h4 id="Content_Server_AI_Pathfinding_PathfindingNode_UpdateTile_Robust_Shared_Map_TileRef_" data-uid="Content.Server.AI.Pathfinding.PathfindingNode.UpdateTile(Robust.Shared.Map.TileRef)">UpdateTile(TileRef)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateTile(TileRef newTile)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Map.TileRef</span></td>
+        <td><span class="parametername">newTile</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Pathfinding_PathfindingNode.md&amp;value=---%0Auid%3A%20Content.Server.AI.Pathfinding.PathfindingNode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Pathfinding/PathfindingNode.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

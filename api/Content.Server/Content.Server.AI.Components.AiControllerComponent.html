@@ -1,0 +1,722 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AiControllerComponent
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AiControllerComponent
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Server.AI.Components.AiControllerComponent">
+  
+  
+  <h1 id="Content_Server_AI_Components_AiControllerComponent" data-uid="Content.Server.AI.Components.AiControllerComponent" class="text-break">Class AiControllerComponent
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Robust.Shared.GameObjects.Component</span></div>
+    <div class="level2"><span class="xref">AiControllerComponent</span></div>
+      <div class="level3"><a class="xref" href="Content.Server.AI.Utility.AiLogic.UtilityAi.html">UtilityAi</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="../Content.Shared/Content.Shared.Movement.Components.IMobMoverComponent.html">IMobMoverComponent</a></div>
+    <div><a class="xref" href="../Content.Shared/Content.Shared.Movement.Components.IMoverComponent.html">IMoverComponent</a></div>
+    <div><span class="xref">Robust.Shared.GameObjects.IComponent</span></div>
+  </div>
+  <div class="inheritedMembers">
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Server.AI.Components.html">Content.Server.AI.Components</a></h6>
+  <h6><strong>Assembly</strong>: Content.Server.dll</h6>
+  <h5 id="Content_Server_AI_Components_AiControllerComponent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AiControllerComponent : Component, IMobMoverComponent, IMoverComponent, IComponent</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_Awake.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.Awake%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L26">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_Awake_" data-uid="Content.Server.AI.Components.AiControllerComponent.Awake*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_Awake" data-uid="Content.Server.AI.Components.AiControllerComponent.Awake">Awake</h4>
+  <div class="markdown level1 summary"><p>Whether the AI is actively iterated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Awake { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_CurrentSprintSpeed.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.CurrentSprintSpeed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L99">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_CurrentSprintSpeed_" data-uid="Content.Server.AI.Components.AiControllerComponent.CurrentSprintSpeed*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_CurrentSprintSpeed" data-uid="Content.Server.AI.Components.AiControllerComponent.CurrentSprintSpeed">CurrentSprintSpeed</h4>
+  <div class="markdown level1 summary"><p>Movement speed (m/s) that the entity walks, after modifiers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CurrentSprintSpeed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_CurrentWalkSpeed.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.CurrentWalkSpeed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L82">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_CurrentWalkSpeed_" data-uid="Content.Server.AI.Components.AiControllerComponent.CurrentWalkSpeed*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_CurrentWalkSpeed" data-uid="Content.Server.AI.Components.AiControllerComponent.CurrentWalkSpeed">CurrentWalkSpeed</h4>
+  <div class="markdown level1 summary"><p>Movement speed (m/s) that the entity walks, after modifiers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CurrentWalkSpeed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_GrabRange.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.GrabRange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L123">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_GrabRange_" data-uid="Content.Server.AI.Components.AiControllerComponent.GrabRange*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_GrabRange" data-uid="Content.Server.AI.Components.AiControllerComponent.GrabRange">GrabRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GrabRange { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_LastGridAngle.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.LastGridAngle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L113">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_LastGridAngle_" data-uid="Content.Server.AI.Components.AiControllerComponent.LastGridAngle*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_LastGridAngle" data-uid="Content.Server.AI.Components.AiControllerComponent.LastGridAngle">LastGridAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Angle LastGridAngle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Maths.Angle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_LastPosition.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.LastPosition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L141">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_LastPosition_" data-uid="Content.Server.AI.Components.AiControllerComponent.LastPosition*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_LastPosition" data-uid="Content.Server.AI.Components.AiControllerComponent.LastPosition">LastPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityCoordinates LastPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Map.EntityCoordinates</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_PushStrength.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.PushStrength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L116">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_PushStrength_" data-uid="Content.Server.AI.Components.AiControllerComponent.PushStrength*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_PushStrength" data-uid="Content.Server.AI.Components.AiControllerComponent.PushStrength">PushStrength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PushStrength { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_Sprinting.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.Sprinting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L129">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_Sprinting_" data-uid="Content.Server.AI.Components.AiControllerComponent.Sprinting*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_Sprinting" data-uid="Content.Server.AI.Components.AiControllerComponent.Sprinting">Sprinting</h4>
+  <div class="markdown level1 summary"><p>Is the entity Sprinting (running)?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Sprinting { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_StartingGearPrototype.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.StartingGearPrototype%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L45">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_StartingGearPrototype_" data-uid="Content.Server.AI.Components.AiControllerComponent.StartingGearPrototype*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_StartingGearPrototype" data-uid="Content.Server.AI.Components.AiControllerComponent.StartingGearPrototype">StartingGearPrototype</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? StartingGearPrototype { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_StepSoundDistance.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.StepSoundDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L143">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_StepSoundDistance_" data-uid="Content.Server.AI.Components.AiControllerComponent.StepSoundDistance*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_StepSoundDistance" data-uid="Content.Server.AI.Components.AiControllerComponent.StepSoundDistance">StepSoundDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StepSoundDistance { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_VelocityDir.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.VelocityDir%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L135">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_VelocityDir_" data-uid="Content.Server.AI.Components.AiControllerComponent.VelocityDir*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_VelocityDir" data-uid="Content.Server.AI.Components.AiControllerComponent.VelocityDir">VelocityDir</h4>
+  <div class="markdown level1 summary"><p>Calculated linear velocity direction of the entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 VelocityDir { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Maths.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_VisionRadius.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.VisionRadius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L49">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_VisionRadius_" data-uid="Content.Server.AI.Components.AiControllerComponent.VisionRadius*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_VisionRadius" data-uid="Content.Server.AI.Components.AiControllerComponent.VisionRadius">VisionRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float VisionRadius { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_WeightlessStrength.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.WeightlessStrength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L119">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_WeightlessStrength_" data-uid="Content.Server.AI.Components.AiControllerComponent.WeightlessStrength*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_WeightlessStrength" data-uid="Content.Server.AI.Components.AiControllerComponent.WeightlessStrength">WeightlessStrength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float WeightlessStrength { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_Initialize.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L57">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_Initialize_" data-uid="Content.Server.AI.Components.AiControllerComponent.Initialize*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_Initialize" data-uid="Content.Server.AI.Components.AiControllerComponent.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Shared.GameObjects.Component.Initialize()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_SetSprinting_System_UInt16_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.SetSprinting(System.UInt16%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L147">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_SetSprinting_" data-uid="Content.Server.AI.Components.AiControllerComponent.SetSprinting*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_SetSprinting_System_UInt16_System_Boolean_" data-uid="Content.Server.AI.Components.AiControllerComponent.SetSprinting(System.UInt16,System.Boolean)">SetSprinting(UInt16, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSprinting(ushort subTick, bool walking)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">subTick</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">walking</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_SetVelocityDirection_Robust_Shared_Maths_Direction_System_UInt16_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.SetVelocityDirection(Robust.Shared.Maths.Direction%2CSystem.UInt16%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L146">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_SetVelocityDirection_" data-uid="Content.Server.AI.Components.AiControllerComponent.SetVelocityDirection*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_SetVelocityDirection_Robust_Shared_Maths_Direction_System_UInt16_System_Boolean_" data-uid="Content.Server.AI.Components.AiControllerComponent.SetVelocityDirection(Robust.Shared.Maths.Direction,System.UInt16,System.Boolean)">SetVelocityDirection(Direction, UInt16, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVelocityDirection(Direction direction, ushort subTick, bool enabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Maths.Direction</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">subTick</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_Startup.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.Startup%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L65">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_Startup_" data-uid="Content.Server.AI.Components.AiControllerComponent.Startup*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_Startup" data-uid="Content.Server.AI.Components.AiControllerComponent.Startup">Startup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Startup()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Shared.GameObjects.Component.Startup()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent_Update_System_Single_.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent.Update(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L149">View Source</a>
+  </span>
+  <a id="Content_Server_AI_Components_AiControllerComponent_Update_" data-uid="Content.Server.AI.Components.AiControllerComponent.Update*"></a>
+  <h4 id="Content_Server_AI_Components_AiControllerComponent_Update_System_Single_" data-uid="Content.Server.AI.Components.AiControllerComponent.Update(System.Single)">Update(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Update(float frameTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">frameTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="../Content.Shared/Content.Shared.Movement.Components.IMobMoverComponent.html">IMobMoverComponent</a>
+  </div>
+  <div>
+      <a class="xref" href="../Content.Shared/Content.Shared.Movement.Components.IMoverComponent.html">IMoverComponent</a>
+  </div>
+  <div>
+      <span class="xref">Robust.Shared.GameObjects.IComponent</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_AI_Components_AiControllerComponent.md&amp;value=---%0Auid%3A%20Content.Server.AI.Components.AiControllerComponent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/AI/Components/AiControllerComponent.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

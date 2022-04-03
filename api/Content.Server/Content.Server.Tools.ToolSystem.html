@@ -1,0 +1,1166 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ToolSystem
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ToolSystem
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Server.Tools.ToolSystem">
+  
+  
+  <h1 id="Content_Server_Tools_ToolSystem" data-uid="Content.Server.Tools.ToolSystem" class="text-break">Class ToolSystem
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Robust.Shared.GameObjects.EntitySystem</span></div>
+    <div class="level2"><span class="xref">ToolSystem</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Robust.Shared.GameObjects.IEntitySystem</span></div>
+    <div><span class="xref">Robust.Shared.GameObjects.IEntityEventSubscriber</span></div>
+  </div>
+  <div class="inheritedMembers">
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Server.Tools.html">Content.Server.Tools</a></h6>
+  <h6><strong>Assembly</strong>: Content.Server.dll</h6>
+  <h5 id="Content_Server_Tools_ToolSystem_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ToolSystem : EntitySystem, IEntitySystem, IEntityEventSubscriber</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_CycleMultipleTool_Robust_Shared_GameObjects_EntityUid_Content_Server_Tools_Components_MultipleToolComponent_.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.CycleMultipleTool(Robust.Shared.GameObjects.EntityUid%2CContent.Server.Tools.Components.MultipleToolComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.MultipleTool.cs/#L47">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_CycleMultipleTool_" data-uid="Content.Server.Tools.ToolSystem.CycleMultipleTool*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_CycleMultipleTool_Robust_Shared_GameObjects_EntityUid_Content_Server_Tools_Components_MultipleToolComponent_" data-uid="Content.Server.Tools.ToolSystem.CycleMultipleTool(Robust.Shared.GameObjects.EntityUid,Content.Server.Tools.Components.MultipleToolComponent)">CycleMultipleTool(EntityUid, MultipleToolComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CycleMultipleTool(EntityUid uid, MultipleToolComponent multiple = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.Tools.Components.MultipleToolComponent.html">MultipleToolComponent</a></td>
+        <td><span class="parametername">multiple</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_GetWelderFuelAndCapacity_EntityUid_Content_Server_Tools_Components_WelderComponent_Content_Server_Chemistry_Components_SolutionManager_SolutionContainerManagerComponent_.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.GetWelderFuelAndCapacity(EntityUid%2CContent.Server.Tools.Components.WelderComponent%2CContent.Server.Chemistry.Components.SolutionManager.SolutionContainerManagerComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.Welder.cs/#L50">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_GetWelderFuelAndCapacity_" data-uid="Content.Server.Tools.ToolSystem.GetWelderFuelAndCapacity*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_GetWelderFuelAndCapacity_EntityUid_Content_Server_Tools_Components_WelderComponent_Content_Server_Chemistry_Components_SolutionManager_SolutionContainerManagerComponent_" data-uid="Content.Server.Tools.ToolSystem.GetWelderFuelAndCapacity(EntityUid,Content.Server.Tools.Components.WelderComponent,Content.Server.Chemistry.Components.SolutionManager.SolutionContainerManagerComponent)">GetWelderFuelAndCapacity(EntityUid, WelderComponent, SolutionContainerManagerComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public (FixedPoint2 fuel, FixedPoint2 capacity) GetWelderFuelAndCapacity(EntityUid uid, WelderComponent welder = null, SolutionContainerManagerComponent solutionContainer = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityUid</span></td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.Tools.Components.WelderComponent.html">WelderComponent</a></td>
+        <td><span class="parametername">welder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.Chemistry.Components.SolutionManager.SolutionContainerManagerComponent.html">SolutionContainerManagerComponent</a></td>
+        <td><span class="parametername">solutionContainer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a>, <a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_HasAllQualities_Robust_Shared_GameObjects_EntityUid_IEnumerable_System_String__Content_Shared_Tools_Components_ToolComponent_.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.HasAllQualities(Robust.Shared.GameObjects.EntityUid%2CIEnumerable%7BSystem.String%7D%2CContent.Shared.Tools.Components.ToolComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.cs/#L83">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_HasAllQualities_" data-uid="Content.Server.Tools.ToolSystem.HasAllQualities*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_HasAllQualities_Robust_Shared_GameObjects_EntityUid_IEnumerable_System_String__Content_Shared_Tools_Components_ToolComponent_" data-uid="Content.Server.Tools.ToolSystem.HasAllQualities(Robust.Shared.GameObjects.EntityUid,IEnumerable{System.String},Content.Shared.Tools.Components.ToolComponent)">HasAllQualities(EntityUid, IEnumerable&lt;String&gt;, ToolComponent)</h4>
+  <div class="markdown level1 summary"><p>Whether a tool entity has all specified qualities or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAllQualities(EntityUid uid, IEnumerable&lt;string&gt; qualities, ToolComponent tool = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">qualities</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Tools.Components.ToolComponent.html">ToolComponent</a></td>
+        <td><span class="parametername">tool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_HasQuality_Robust_Shared_GameObjects_EntityUid_System_String_Content_Shared_Tools_Components_ToolComponent_.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.HasQuality(Robust.Shared.GameObjects.EntityUid%2CSystem.String%2CContent.Shared.Tools.Components.ToolComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.cs/#L75">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_HasQuality_" data-uid="Content.Server.Tools.ToolSystem.HasQuality*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_HasQuality_Robust_Shared_GameObjects_EntityUid_System_String_Content_Shared_Tools_Components_ToolComponent_" data-uid="Content.Server.Tools.ToolSystem.HasQuality(Robust.Shared.GameObjects.EntityUid,System.String,Content.Shared.Tools.Components.ToolComponent)">HasQuality(EntityUid, String, ToolComponent)</h4>
+  <div class="markdown level1 summary"><p>Whether a tool entity has the specified quality or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasQuality(EntityUid uid, string quality, ToolComponent tool = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">quality</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Tools.Components.ToolComponent.html">ToolComponent</a></td>
+        <td><span class="parametername">tool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_Initialize.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.cs/#L33">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_Initialize_" data-uid="Content.Server.Tools.ToolSystem.Initialize*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_Initialize" data-uid="Content.Server.Tools.ToolSystem.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Shared.GameObjects.EntitySystem.Initialize()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_InitializeWelders.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.InitializeWelders%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.Welder.cs/#L29">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_InitializeWelders_" data-uid="Content.Server.Tools.ToolSystem.InitializeWelders*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_InitializeWelders" data-uid="Content.Server.Tools.ToolSystem.InitializeWelders">InitializeWelders()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitializeWelders()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_PlayToolSound_Robust_Shared_GameObjects_EntityUid_Content_Shared_Tools_Components_ToolComponent_.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.PlayToolSound(Robust.Shared.GameObjects.EntityUid%2CContent.Shared.Tools.Components.ToolComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.cs/#L243">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_PlayToolSound_" data-uid="Content.Server.Tools.ToolSystem.PlayToolSound*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_PlayToolSound_Robust_Shared_GameObjects_EntityUid_Content_Shared_Tools_Components_ToolComponent_" data-uid="Content.Server.Tools.ToolSystem.PlayToolSound(Robust.Shared.GameObjects.EntityUid,Content.Shared.Tools.Components.ToolComponent)">PlayToolSound(EntityUid, ToolComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayToolSound(EntityUid uid, ToolComponent tool = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Tools.Components.ToolComponent.html">ToolComponent</a></td>
+        <td><span class="parametername">tool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_SetMultipleTool_Robust_Shared_GameObjects_EntityUid_Content_Server_Tools_Components_MultipleToolComponent_Content_Shared_Tools_Components_ToolComponent_Robust_Server_GameObjects_SpriteComponent_.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.SetMultipleTool(Robust.Shared.GameObjects.EntityUid%2CContent.Server.Tools.Components.MultipleToolComponent%2CContent.Shared.Tools.Components.ToolComponent%2CRobust.Server.GameObjects.SpriteComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.MultipleTool.cs/#L66">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_SetMultipleTool_" data-uid="Content.Server.Tools.ToolSystem.SetMultipleTool*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_SetMultipleTool_Robust_Shared_GameObjects_EntityUid_Content_Server_Tools_Components_MultipleToolComponent_Content_Shared_Tools_Components_ToolComponent_Robust_Server_GameObjects_SpriteComponent_" data-uid="Content.Server.Tools.ToolSystem.SetMultipleTool(Robust.Shared.GameObjects.EntityUid,Content.Server.Tools.Components.MultipleToolComponent,Content.Shared.Tools.Components.ToolComponent,Robust.Server.GameObjects.SpriteComponent)">SetMultipleTool(EntityUid, MultipleToolComponent, ToolComponent, SpriteComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMultipleTool(EntityUid uid, MultipleToolComponent multiple = null, ToolComponent tool = null, SpriteComponent sprite = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.Tools.Components.MultipleToolComponent.html">MultipleToolComponent</a></td>
+        <td><span class="parametername">multiple</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Tools.Components.ToolComponent.html">ToolComponent</a></td>
+        <td><span class="parametername">tool</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Server.GameObjects.SpriteComponent</span></td>
+        <td><span class="parametername">sprite</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_TryToggleWelder_EntityUid_System_Nullable_EntityUid__Content_Server_Tools_Components_WelderComponent_Content_Server_Chemistry_Components_SolutionManager_SolutionContainerManagerComponent_Content_Shared_Item_SharedItemComponent_Robust_Server_GameObjects_PointLightComponent_System_Nullable_AppearanceComponent__.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.TryToggleWelder(EntityUid%2CSystem.Nullable%7BEntityUid%7D%2CContent.Server.Tools.Components.WelderComponent%2CContent.Server.Chemistry.Components.SolutionManager.SolutionContainerManagerComponent%2CContent.Shared.Item.SharedItemComponent%2CRobust.Server.GameObjects.PointLightComponent%2CSystem.Nullable%7BAppearanceComponent%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.Welder.cs/#L59">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_TryToggleWelder_" data-uid="Content.Server.Tools.ToolSystem.TryToggleWelder*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_TryToggleWelder_EntityUid_System_Nullable_EntityUid__Content_Server_Tools_Components_WelderComponent_Content_Server_Chemistry_Components_SolutionManager_SolutionContainerManagerComponent_Content_Shared_Item_SharedItemComponent_Robust_Server_GameObjects_PointLightComponent_System_Nullable_AppearanceComponent__" data-uid="Content.Server.Tools.ToolSystem.TryToggleWelder(EntityUid,System.Nullable{EntityUid},Content.Server.Tools.Components.WelderComponent,Content.Server.Chemistry.Components.SolutionManager.SolutionContainerManagerComponent,Content.Shared.Item.SharedItemComponent,Robust.Server.GameObjects.PointLightComponent,System.Nullable{AppearanceComponent})">TryToggleWelder(EntityUid, Nullable&lt;EntityUid&gt;, WelderComponent, SolutionContainerManagerComponent, SharedItemComponent, PointLightComponent, Nullable&lt;AppearanceComponent&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryToggleWelder(EntityUid uid, EntityUid? user, WelderComponent welder = null, SolutionContainerManagerComponent solutionContainer = null, SharedItemComponent item = null, PointLightComponent light = null, AppearanceComponent? appearance = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityUid</span></td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">EntityUid</span>&gt;</td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.Tools.Components.WelderComponent.html">WelderComponent</a></td>
+        <td><span class="parametername">welder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.Chemistry.Components.SolutionManager.SolutionContainerManagerComponent.html">SolutionContainerManagerComponent</a></td>
+        <td><span class="parametername">solutionContainer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Item.SharedItemComponent.html">SharedItemComponent</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Server.GameObjects.PointLightComponent</span></td>
+        <td><span class="parametername">light</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">AppearanceComponent</span>&gt;</td>
+        <td><span class="parametername">appearance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_TryTurnWelderOff_EntityUid_System_Nullable_EntityUid__Content_Server_Tools_Components_WelderComponent_Content_Shared_Item_SharedItemComponent_Robust_Server_GameObjects_PointLightComponent_System_Nullable_AppearanceComponent__.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.TryTurnWelderOff(EntityUid%2CSystem.Nullable%7BEntityUid%7D%2CContent.Server.Tools.Components.WelderComponent%2CContent.Shared.Item.SharedItemComponent%2CRobust.Server.GameObjects.PointLightComponent%2CSystem.Nullable%7BAppearanceComponent%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.Welder.cs/#L125">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_TryTurnWelderOff_" data-uid="Content.Server.Tools.ToolSystem.TryTurnWelderOff*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_TryTurnWelderOff_EntityUid_System_Nullable_EntityUid__Content_Server_Tools_Components_WelderComponent_Content_Shared_Item_SharedItemComponent_Robust_Server_GameObjects_PointLightComponent_System_Nullable_AppearanceComponent__" data-uid="Content.Server.Tools.ToolSystem.TryTurnWelderOff(EntityUid,System.Nullable{EntityUid},Content.Server.Tools.Components.WelderComponent,Content.Shared.Item.SharedItemComponent,Robust.Server.GameObjects.PointLightComponent,System.Nullable{AppearanceComponent})">TryTurnWelderOff(EntityUid, Nullable&lt;EntityUid&gt;, WelderComponent, SharedItemComponent, PointLightComponent, Nullable&lt;AppearanceComponent&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryTurnWelderOff(EntityUid uid, EntityUid? user, WelderComponent welder = null, SharedItemComponent item = null, PointLightComponent light = null, AppearanceComponent? appearance = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityUid</span></td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">EntityUid</span>&gt;</td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.Tools.Components.WelderComponent.html">WelderComponent</a></td>
+        <td><span class="parametername">welder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Item.SharedItemComponent.html">SharedItemComponent</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Server.GameObjects.PointLightComponent</span></td>
+        <td><span class="parametername">light</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">AppearanceComponent</span>&gt;</td>
+        <td><span class="parametername">appearance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_TryTurnWelderOn_EntityUid_System_Nullable_EntityUid__Content_Server_Tools_Components_WelderComponent_Content_Server_Chemistry_Components_SolutionManager_SolutionContainerManagerComponent_Content_Shared_Item_SharedItemComponent_Robust_Server_GameObjects_PointLightComponent_System_Nullable_AppearanceComponent__.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.TryTurnWelderOn(EntityUid%2CSystem.Nullable%7BEntityUid%7D%2CContent.Server.Tools.Components.WelderComponent%2CContent.Server.Chemistry.Components.SolutionManager.SolutionContainerManagerComponent%2CContent.Shared.Item.SharedItemComponent%2CRobust.Server.GameObjects.PointLightComponent%2CSystem.Nullable%7BAppearanceComponent%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.Welder.cs/#L76">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_TryTurnWelderOn_" data-uid="Content.Server.Tools.ToolSystem.TryTurnWelderOn*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_TryTurnWelderOn_EntityUid_System_Nullable_EntityUid__Content_Server_Tools_Components_WelderComponent_Content_Server_Chemistry_Components_SolutionManager_SolutionContainerManagerComponent_Content_Shared_Item_SharedItemComponent_Robust_Server_GameObjects_PointLightComponent_System_Nullable_AppearanceComponent__" data-uid="Content.Server.Tools.ToolSystem.TryTurnWelderOn(EntityUid,System.Nullable{EntityUid},Content.Server.Tools.Components.WelderComponent,Content.Server.Chemistry.Components.SolutionManager.SolutionContainerManagerComponent,Content.Shared.Item.SharedItemComponent,Robust.Server.GameObjects.PointLightComponent,System.Nullable{AppearanceComponent})">TryTurnWelderOn(EntityUid, Nullable&lt;EntityUid&gt;, WelderComponent, SolutionContainerManagerComponent, SharedItemComponent, PointLightComponent, Nullable&lt;AppearanceComponent&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryTurnWelderOn(EntityUid uid, EntityUid? user, WelderComponent welder = null, SolutionContainerManagerComponent solutionContainer = null, SharedItemComponent item = null, PointLightComponent light = null, AppearanceComponent? appearance = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityUid</span></td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">EntityUid</span>&gt;</td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.Tools.Components.WelderComponent.html">WelderComponent</a></td>
+        <td><span class="parametername">welder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Server.Chemistry.Components.SolutionManager.SolutionContainerManagerComponent.html">SolutionContainerManagerComponent</a></td>
+        <td><span class="parametername">solutionContainer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Item.SharedItemComponent.html">SharedItemComponent</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Server.GameObjects.PointLightComponent</span></td>
+        <td><span class="parametername">light</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">AppearanceComponent</span>&gt;</td>
+        <td><span class="parametername">appearance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_Update_System_Single_.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.Update(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.cs/#L256">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_Update_" data-uid="Content.Server.Tools.ToolSystem.Update*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_Update_System_Single_" data-uid="Content.Server.Tools.ToolSystem.Update(System.Single)">Update(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Update(float frameTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">frameTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Shared.GameObjects.EntitySystem.Update(System.Single)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_UseTool_Robust_Shared_GameObjects_EntityUid_Robust_Shared_GameObjects_EntityUid_System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Single_System_Single_IEnumerable_System_String__System_Nullable_Func_System_Boolean___Content_Shared_Tools_Components_ToolComponent_.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.UseTool(Robust.Shared.GameObjects.EntityUid%2CRobust.Shared.GameObjects.EntityUid%2CSystem.Nullable%7BRobust.Shared.GameObjects.EntityUid%7D%2CSystem.Single%2CSystem.Single%2CIEnumerable%7BSystem.String%7D%2CSystem.Nullable%7BFunc%7BSystem.Boolean%7D%7D%2CContent.Shared.Tools.Components.ToolComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.cs/#L171">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_UseTool_" data-uid="Content.Server.Tools.ToolSystem.UseTool*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_UseTool_Robust_Shared_GameObjects_EntityUid_Robust_Shared_GameObjects_EntityUid_System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Single_System_Single_IEnumerable_System_String__System_Nullable_Func_System_Boolean___Content_Shared_Tools_Components_ToolComponent_" data-uid="Content.Server.Tools.ToolSystem.UseTool(Robust.Shared.GameObjects.EntityUid,Robust.Shared.GameObjects.EntityUid,System.Nullable{Robust.Shared.GameObjects.EntityUid},System.Single,System.Single,IEnumerable{System.String},System.Nullable{Func{System.Boolean}},Content.Shared.Tools.Components.ToolComponent)">UseTool(EntityUid, EntityUid, Nullable&lt;EntityUid&gt;, Single, Single, IEnumerable&lt;String&gt;, Nullable&lt;Func&lt;Boolean&gt;&gt;, ToolComponent)</h4>
+  <div class="markdown level1 summary"><p>Async version of UseTool.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; UseTool(EntityUid tool, EntityUid user, EntityUid? target, float fuel, float doAfterDelay, IEnumerable&lt;string&gt; toolQualitiesNeeded, Func&lt;bool&gt;? doAfterCheck = null, ToolComponent toolComponent = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">tool</span></td>
+        <td><p>The tool entity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The entity using the tool.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Robust.Shared.GameObjects.EntityUid</span>&gt;</td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Optionally, a target to use the tool on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">fuel</span></td>
+        <td><p>An optional amount of fuel or energy to consume-</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">doAfterDelay</span></td>
+        <td><p>A doAfter delay in seconds.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">toolQualitiesNeeded</span></td>
+        <td><p>The tool qualities needed to use the tool.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">doAfterCheck</span></td>
+        <td><p>An optional check to perform for the doAfter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Tools.Components.ToolComponent.html">ToolComponent</a></td>
+        <td><span class="parametername">toolComponent</span></td>
+        <td><p>The tool component.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p>Whether using the tool succeeded or not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_UseTool_Robust_Shared_GameObjects_EntityUid_Robust_Shared_GameObjects_EntityUid_System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Single_System_Single_IEnumerable_System_String__System_Nullable_System_Object__System_Nullable_System_Object__System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Nullable_Func_System_Boolean___Content_Shared_Tools_Components_ToolComponent_System_Nullable_CancellationToken__.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.UseTool(Robust.Shared.GameObjects.EntityUid%2CRobust.Shared.GameObjects.EntityUid%2CSystem.Nullable%7BRobust.Shared.GameObjects.EntityUid%7D%2CSystem.Single%2CSystem.Single%2CIEnumerable%7BSystem.String%7D%2CSystem.Nullable%7BSystem.Object%7D%2CSystem.Nullable%7BSystem.Object%7D%2CSystem.Nullable%7BRobust.Shared.GameObjects.EntityUid%7D%2CSystem.Nullable%7BFunc%7BSystem.Boolean%7D%7D%2CContent.Shared.Tools.Components.ToolComponent%2CSystem.Nullable%7BCancellationToken%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.cs/#L107">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_UseTool_" data-uid="Content.Server.Tools.ToolSystem.UseTool*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_UseTool_Robust_Shared_GameObjects_EntityUid_Robust_Shared_GameObjects_EntityUid_System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Single_System_Single_IEnumerable_System_String__System_Nullable_System_Object__System_Nullable_System_Object__System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Nullable_Func_System_Boolean___Content_Shared_Tools_Components_ToolComponent_System_Nullable_CancellationToken__" data-uid="Content.Server.Tools.ToolSystem.UseTool(Robust.Shared.GameObjects.EntityUid,Robust.Shared.GameObjects.EntityUid,System.Nullable{Robust.Shared.GameObjects.EntityUid},System.Single,System.Single,IEnumerable{System.String},System.Nullable{System.Object},System.Nullable{System.Object},System.Nullable{Robust.Shared.GameObjects.EntityUid},System.Nullable{Func{System.Boolean}},Content.Shared.Tools.Components.ToolComponent,System.Nullable{CancellationToken})">UseTool(EntityUid, EntityUid, Nullable&lt;EntityUid&gt;, Single, Single, IEnumerable&lt;String&gt;, Nullable&lt;Object&gt;, Nullable&lt;Object&gt;, Nullable&lt;EntityUid&gt;, Nullable&lt;Func&lt;Boolean&gt;&gt;, ToolComponent, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sync version of UseTool.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseTool(EntityUid tool, EntityUid user, EntityUid? target, float fuel, float doAfterDelay, IEnumerable&lt;string&gt; toolQualitiesNeeded, object? doAfterCompleteEvent = null, object? doAfterCancelledEvent = null, EntityUid? doAfterEventTarget = null, Func&lt;bool&gt;? doAfterCheck = null, ToolComponent toolComponent = null, CancellationToken? cancelToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">tool</span></td>
+        <td><p>The tool entity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The entity using the tool.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Robust.Shared.GameObjects.EntityUid</span>&gt;</td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Optionally, a target to use the tool on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">fuel</span></td>
+        <td><p>An optional amount of fuel or energy to consume-</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">doAfterDelay</span></td>
+        <td><p>A doAfter delay in seconds.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">toolQualitiesNeeded</span></td>
+        <td><p>The tool qualities needed to use the tool.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">doAfterCompleteEvent</span></td>
+        <td><p>An event to raise once the doAfter is completed successfully.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">doAfterCancelledEvent</span></td>
+        <td><p>An event to raise once the doAfter is canceled.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Robust.Shared.GameObjects.EntityUid</span>&gt;</td>
+        <td><span class="parametername">doAfterEventTarget</span></td>
+        <td><p>Where to direct the do-after events. If null, events are broadcast</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">doAfterCheck</span></td>
+        <td><p>An optional check to perform for the doAfter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Tools.Components.ToolComponent.html">ToolComponent</a></td>
+        <td><span class="parametername">toolComponent</span></td>
+        <td><p>The tool component.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">CancellationToken</span>&gt;</td>
+        <td><span class="parametername">cancelToken</span></td>
+        <td><p>Token to provide to do_after for cancelling</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether initially, using the tool succeeded. If there's a doAfter delay, you'll need to listen to
+the <see cref="!:doAfterCompleteEvent"></see> and <see cref="!:doAfterCancelledEvent"></see> being broadcast
+to see whether using the tool succeeded or not. If the <see cref="!:doAfterDelay"></see> is zero,
+this simply returns whether using the tool succeeded or not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_UseTool_Robust_Shared_GameObjects_EntityUid_Robust_Shared_GameObjects_EntityUid_System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Single_System_Single_System_String_System_Nullable_Func_System_Boolean___Content_Shared_Tools_Components_ToolComponent_.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.UseTool(Robust.Shared.GameObjects.EntityUid%2CRobust.Shared.GameObjects.EntityUid%2CSystem.Nullable%7BRobust.Shared.GameObjects.EntityUid%7D%2CSystem.Single%2CSystem.Single%2CSystem.String%2CSystem.Nullable%7BFunc%7BSystem.Boolean%7D%7D%2CContent.Shared.Tools.Components.ToolComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.cs/#L205">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_UseTool_" data-uid="Content.Server.Tools.ToolSystem.UseTool*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_UseTool_Robust_Shared_GameObjects_EntityUid_Robust_Shared_GameObjects_EntityUid_System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Single_System_Single_System_String_System_Nullable_Func_System_Boolean___Content_Shared_Tools_Components_ToolComponent_" data-uid="Content.Server.Tools.ToolSystem.UseTool(Robust.Shared.GameObjects.EntityUid,Robust.Shared.GameObjects.EntityUid,System.Nullable{Robust.Shared.GameObjects.EntityUid},System.Single,System.Single,System.String,System.Nullable{Func{System.Boolean}},Content.Shared.Tools.Components.ToolComponent)">UseTool(EntityUid, EntityUid, Nullable&lt;EntityUid&gt;, Single, Single, String, Nullable&lt;Func&lt;Boolean&gt;&gt;, ToolComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; UseTool(EntityUid tool, EntityUid user, EntityUid? target, float fuel, float doAfterDelay, string toolQualityNeeded, Func&lt;bool&gt;? doAfterCheck = null, ToolComponent toolComponent = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">tool</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Robust.Shared.GameObjects.EntityUid</span>&gt;</td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">fuel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">doAfterDelay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">toolQualityNeeded</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">doAfterCheck</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Tools.Components.ToolComponent.html">ToolComponent</a></td>
+        <td><span class="parametername">toolComponent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem_UseTool_Robust_Shared_GameObjects_EntityUid_Robust_Shared_GameObjects_EntityUid_System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Single_System_Single_System_String_System_Object_System_Object_System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Nullable_Func_System_Boolean___Content_Shared_Tools_Components_ToolComponent_.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem.UseTool(Robust.Shared.GameObjects.EntityUid%2CRobust.Shared.GameObjects.EntityUid%2CSystem.Nullable%7BRobust.Shared.GameObjects.EntityUid%7D%2CSystem.Single%2CSystem.Single%2CSystem.String%2CSystem.Object%2CSystem.Object%2CSystem.Nullable%7BRobust.Shared.GameObjects.EntityUid%7D%2CSystem.Nullable%7BFunc%7BSystem.Boolean%7D%7D%2CContent.Shared.Tools.Components.ToolComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.cs/#L151">View Source</a>
+  </span>
+  <a id="Content_Server_Tools_ToolSystem_UseTool_" data-uid="Content.Server.Tools.ToolSystem.UseTool*"></a>
+  <h4 id="Content_Server_Tools_ToolSystem_UseTool_Robust_Shared_GameObjects_EntityUid_Robust_Shared_GameObjects_EntityUid_System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Single_System_Single_System_String_System_Object_System_Object_System_Nullable_Robust_Shared_GameObjects_EntityUid__System_Nullable_Func_System_Boolean___Content_Shared_Tools_Components_ToolComponent_" data-uid="Content.Server.Tools.ToolSystem.UseTool(Robust.Shared.GameObjects.EntityUid,Robust.Shared.GameObjects.EntityUid,System.Nullable{Robust.Shared.GameObjects.EntityUid},System.Single,System.Single,System.String,System.Object,System.Object,System.Nullable{Robust.Shared.GameObjects.EntityUid},System.Nullable{Func{System.Boolean}},Content.Shared.Tools.Components.ToolComponent)">UseTool(EntityUid, EntityUid, Nullable&lt;EntityUid&gt;, Single, Single, String, Object, Object, Nullable&lt;EntityUid&gt;, Nullable&lt;Func&lt;Boolean&gt;&gt;, ToolComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseTool(EntityUid tool, EntityUid user, EntityUid? target, float fuel, float doAfterDelay, string toolQualityNeeded, object doAfterCompleteEvent, object doAfterCancelledEvent, EntityUid? doAfterEventTarget = null, Func&lt;bool&gt;? doAfterCheck = null, ToolComponent toolComponent = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">tool</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Robust.Shared.GameObjects.EntityUid</span>&gt;</td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">fuel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">doAfterDelay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">toolQualityNeeded</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">doAfterCompleteEvent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">doAfterCancelledEvent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Robust.Shared.GameObjects.EntityUid</span>&gt;</td>
+        <td><span class="parametername">doAfterEventTarget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">doAfterCheck</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Tools.Components.ToolComponent.html">ToolComponent</a></td>
+        <td><span class="parametername">toolComponent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Robust.Shared.GameObjects.IEntitySystem</span>
+  </div>
+  <div>
+      <span class="xref">Robust.Shared.GameObjects.IEntityEventSubscriber</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Tools_ToolSystem.md&amp;value=---%0Auid%3A%20Content.Server.Tools.ToolSystem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Tools/ToolSystem.Welder.cs/#L22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

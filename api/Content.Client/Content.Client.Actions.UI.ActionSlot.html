@@ -1,0 +1,592 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ActionSlot
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ActionSlot
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Client.Actions.UI.ActionSlot">
+  
+  
+  <h1 id="Content_Client_Actions_UI_ActionSlot" data-uid="Content.Client.Actions.UI.ActionSlot" class="text-break">Class ActionSlot
+  </h1>
+  <div class="markdown level0 summary"><p>A slot in the action hotbar. Not extending BaseButton because
+its needs diverged too much.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Robust.Client.UserInterface.Control</span></div>
+    <div class="level2"><span class="xref">Robust.Client.UserInterface.Controls.Container</span></div>
+    <div class="level3"><span class="xref">Robust.Client.UserInterface.Controls.PanelContainer</span></div>
+    <div class="level4"><span class="xref">ActionSlot</span></div>
+  </div>
+  <div class="inheritedMembers">
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Client.Actions.UI.html">Content.Client.Actions.UI</a></h6>
+  <h6><strong>Assembly</strong>: Content.Client.dll</h6>
+  <h5 id="Content_Client_Actions_UI_ActionSlot_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ActionSlot : PanelContainer</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot__ctor_Content_Client_Actions_UI_ActionsUI_Content_Client_Actions_UI_ActionMenu_System_Byte_.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.%23ctor(Content.Client.Actions.UI.ActionsUI%2CContent.Client.Actions.UI.ActionMenu%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L59">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot__ctor_" data-uid="Content.Client.Actions.UI.ActionSlot.#ctor*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot__ctor_Content_Client_Actions_UI_ActionsUI_Content_Client_Actions_UI_ActionMenu_System_Byte_" data-uid="Content.Client.Actions.UI.ActionSlot.#ctor(Content.Client.Actions.UI.ActionsUI,Content.Client.Actions.UI.ActionMenu,System.Byte)">ActionSlot(ActionsUI, ActionMenu, Byte)</h4>
+  <div class="markdown level1 summary"><p>Creates an action slot for the specified number</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionSlot(ActionsUI actionsUI, ActionMenu actionMenu, byte slotIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Content.Client.Actions.UI.ActionsUI.html">ActionsUI</a></td>
+        <td><span class="parametername">actionsUI</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Content.Client.Actions.UI.ActionMenu.html">ActionMenu</a></td>
+        <td><span class="parametername">actionMenu</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">slotIndex</span></td>
+        <td><p>slot index this corresponds to, 0-9 (0 labeled as 1, 8, labeled &quot;9&quot;, 9 labeled as &quot;0&quot;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_Action.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.Action%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L34">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_Action_" data-uid="Content.Client.Actions.UI.ActionSlot.Action*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_Action" data-uid="Content.Client.Actions.UI.ActionSlot.Action">Action</h4>
+  <div class="markdown level1 summary"><p>Current action in this slot.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionType Action { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Actions.ActionTypes.ActionType.html">ActionType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_SlotIndex.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.SlotIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L40">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_SlotIndex_" data-uid="Content.Client.Actions.UI.ActionSlot.SlotIndex*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_SlotIndex" data-uid="Content.Client.Actions.UI.ActionSlot.SlotIndex">SlotIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte SlotIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_Assign_Content_Shared_Actions_ActionTypes_ActionType_.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.Assign(Content.Shared.Actions.ActionTypes.ActionType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L326">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_Assign_" data-uid="Content.Client.Actions.UI.ActionSlot.Assign*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_Assign_Content_Shared_Actions_ActionTypes_ActionType_" data-uid="Content.Client.Actions.UI.ActionSlot.Assign(Content.Shared.Actions.ActionTypes.ActionType)">Assign(ActionType)</h4>
+  <div class="markdown level1 summary"><p>Updates the item action assigned to this slot, tied to a specific item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Assign(ActionType action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Actions.ActionTypes.ActionType.html">ActionType</a></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>action to assign</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_CancelPress.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.CancelPress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L298">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_CancelPress_" data-uid="Content.Client.Actions.UI.ActionSlot.CancelPress*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_CancelPress" data-uid="Content.Client.Actions.UI.ActionSlot.CancelPress">CancelPress()</h4>
+  <div class="markdown level1 summary"><p>Cancel current press without triggering the action</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CancelPress()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_Clear.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L341">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_Clear_" data-uid="Content.Client.Actions.UI.ActionSlot.Clear*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_Clear" data-uid="Content.Client.Actions.UI.ActionSlot.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clears the action assigned to this slot</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_ControlFocusExited.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.ControlFocusExited%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L287">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_ControlFocusExited_" data-uid="Content.Client.Actions.UI.ActionSlot.ControlFocusExited*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_ControlFocusExited" data-uid="Content.Client.Actions.UI.ActionSlot.ControlFocusExited">ControlFocusExited()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void ControlFocusExited()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Client.UserInterface.Control.ControlFocusExited()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_Depress_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.Depress(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L308">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_Depress_" data-uid="Content.Client.Actions.UI.ActionSlot.Depress*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_Depress_System_Boolean_" data-uid="Content.Client.Actions.UI.ActionSlot.Depress(System.Boolean)">Depress(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Press this button down. If it was depressed and now set to not depressed, will
+trigger the action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Depress(bool depress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">depress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_Disable.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.Disable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L365">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_Disable_" data-uid="Content.Client.Actions.UI.ActionSlot.Disable*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_Disable" data-uid="Content.Client.Actions.UI.ActionSlot.Disable">Disable()</h4>
+  <div class="markdown level1 summary"><p>Display the action in this slot (if there is one) as disabled.
+The slot is still clickable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_DrawModeChanged.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.DrawModeChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L461">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_DrawModeChanged_" data-uid="Content.Client.Actions.UI.ActionSlot.DrawModeChanged*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_DrawModeChanged" data-uid="Content.Client.Actions.UI.ActionSlot.DrawModeChanged">DrawModeChanged()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawModeChanged()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_Enable.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.Enable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L355">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_Enable_" data-uid="Content.Client.Actions.UI.ActionSlot.Enable*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_Enable" data-uid="Content.Client.Actions.UI.ActionSlot.Enable">Enable()</h4>
+  <div class="markdown level1 summary"><p>Display the action in this slot (if there is one) as enabled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Enable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_FrameUpdate_Robust_Shared_Timing_FrameEventArgs_.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.FrameUpdate(Robust.Shared.Timing.FrameEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L502">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_FrameUpdate_" data-uid="Content.Client.Actions.UI.ActionSlot.FrameUpdate*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_FrameUpdate_Robust_Shared_Timing_FrameEventArgs_" data-uid="Content.Client.Actions.UI.ActionSlot.FrameUpdate(Robust.Shared.Timing.FrameEventArgs)">FrameUpdate(FrameEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void FrameUpdate(FrameEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Timing.FrameEventArgs</span></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Client.UserInterface.Control.FrameUpdate(Robust.Shared.Timing.FrameEventArgs)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_KeyBindDown_Robust_Client_UserInterface_GUIBoundKeyEventArgs_.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.KeyBindDown(Robust.Client.UserInterface.GUIBoundKeyEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L194">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_KeyBindDown_" data-uid="Content.Client.Actions.UI.ActionSlot.KeyBindDown*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_KeyBindDown_Robust_Client_UserInterface_GUIBoundKeyEventArgs_" data-uid="Content.Client.Actions.UI.ActionSlot.KeyBindDown(Robust.Client.UserInterface.GUIBoundKeyEventArgs)">KeyBindDown(GUIBoundKeyEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void KeyBindDown(GUIBoundKeyEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Client.UserInterface.GUIBoundKeyEventArgs</span></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Client.UserInterface.Control.KeyBindDown(Robust.Client.UserInterface.GUIBoundKeyEventArgs)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_KeyBindUp_Robust_Client_UserInterface_GUIBoundKeyEventArgs_.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.KeyBindUp(Robust.Client.UserInterface.GUIBoundKeyEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L242">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_KeyBindUp_" data-uid="Content.Client.Actions.UI.ActionSlot.KeyBindUp*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_KeyBindUp_Robust_Client_UserInterface_GUIBoundKeyEventArgs_" data-uid="Content.Client.Actions.UI.ActionSlot.KeyBindUp(Robust.Client.UserInterface.GUIBoundKeyEventArgs)">KeyBindUp(GUIBoundKeyEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void KeyBindUp(GUIBoundKeyEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Client.UserInterface.GUIBoundKeyEventArgs</span></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Client.UserInterface.Control.KeyBindUp(Robust.Client.UserInterface.GUIBoundKeyEventArgs)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_MouseEntered.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.MouseEntered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L174">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_MouseEntered_" data-uid="Content.Client.Actions.UI.ActionSlot.MouseEntered*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_MouseEntered" data-uid="Content.Client.Actions.UI.ActionSlot.MouseEntered">MouseEntered()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void MouseEntered()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Client.UserInterface.Control.MouseEntered()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_MouseExited.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.MouseExited%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L185">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_MouseExited_" data-uid="Content.Client.Actions.UI.ActionSlot.MouseExited*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_MouseExited" data-uid="Content.Client.Actions.UI.ActionSlot.MouseExited">MouseExited()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void MouseExited()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Client.UserInterface.Control.MouseExited()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot_UpdateIcons.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot.UpdateIcons%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L380">View Source</a>
+  </span>
+  <a id="Content_Client_Actions_UI_ActionSlot_UpdateIcons_" data-uid="Content.Client.Actions.UI.ActionSlot.UpdateIcons*"></a>
+  <h4 id="Content_Client_Actions_UI_ActionSlot_UpdateIcons" data-uid="Content.Client.Actions.UI.ActionSlot.UpdateIcons">UpdateIcons()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateIcons()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Client_Actions_UI_ActionSlot.md&amp;value=---%0Auid%3A%20Content.Client.Actions.UI.ActionSlot%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Client/Actions/UI/ActionSlot.cs/#L22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

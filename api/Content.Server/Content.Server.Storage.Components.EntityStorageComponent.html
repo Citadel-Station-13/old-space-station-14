@@ -1,0 +1,1053 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EntityStorageComponent
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EntityStorageComponent
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Server.Storage.Components.EntityStorageComponent">
+  
+  
+  <h1 id="Content_Server_Storage_Components_EntityStorageComponent" data-uid="Content.Server.Storage.Components.EntityStorageComponent" class="text-break">Class EntityStorageComponent
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Robust.Shared.GameObjects.Component</span></div>
+    <div class="level2"><span class="xref">EntityStorageComponent</span></div>
+      <div class="level3"><a class="xref" href="Content.Server.Morgue.Components.BodyBagEntityStorageComponent.html">BodyBagEntityStorageComponent</a></div>
+      <div class="level3"><a class="xref" href="Content.Server.Morgue.Components.MorgueEntityStorageComponent.html">MorgueEntityStorageComponent</a></div>
+      <div class="level3"><a class="xref" href="Content.Server.Storage.Components.CursedEntityStorageComponent.html">CursedEntityStorageComponent</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="../Content.Shared/Content.Shared.Interaction.IActivate.html">IActivate</a></div>
+    <div><a class="xref" href="Content.Server.Storage.Components.IStorageComponent.html">IStorageComponent</a></div>
+    <div><span class="xref">Robust.Shared.GameObjects.IComponent</span></div>
+    <div><a class="xref" href="../Content.Shared/Content.Shared.Interaction.IInteractUsing.html">IInteractUsing</a></div>
+    <div><a class="xref" href="../Content.Shared/Content.Shared.Acts.IDestroyAct.html">IDestroyAct</a></div>
+  </div>
+  <div class="inheritedMembers">
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Server.Storage.Components.html">Content.Server.Storage.Components</a></h6>
+  <h6><strong>Assembly</strong>: Content.Server.dll</h6>
+  <h5 id="Content_Server_Storage_Components_EntityStorageComponent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EntityStorageComponent : Component, IActivate, IStorageComponent, IComponent, IInteractUsing, IDestroyAct</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_Contents.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.Contents%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L89">View Source</a>
+  </span>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_Contents" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Contents">Contents</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Container Contents</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Containers.Container</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_InternalOpenAttemptDelay.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.InternalOpenAttemptDelay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L44">View Source</a>
+  </span>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_InternalOpenAttemptDelay" data-uid="Content.Server.Storage.Components.EntityStorageComponent.InternalOpenAttemptDelay">InternalOpenAttemptDelay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly TimeSpan InternalOpenAttemptDelay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_LastInternalOpenAttempt.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.LastInternalOpenAttempt%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L45">View Source</a>
+  </span>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_LastInternalOpenAttempt" data-uid="Content.Server.Storage.Components.EntityStorageComponent.LastInternalOpenAttempt">LastInternalOpenAttempt</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan LastInternalOpenAttempt</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_CanWeldShut.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.CanWeldShut%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L138">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_CanWeldShut_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.CanWeldShut*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_CanWeldShut" data-uid="Content.Server.Storage.Components.EntityStorageComponent.CanWeldShut">CanWeldShut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanWeldShut { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_EnteringRange.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.EnteringRange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L151">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_EnteringRange_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.EnteringRange*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_EnteringRange" data-uid="Content.Server.Storage.Components.EntityStorageComponent.EnteringRange">EnteringRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float EnteringRange { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_IsWeldedShut.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.IsWeldedShut%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L123">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_IsWeldedShut_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.IsWeldedShut*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_IsWeldedShut" data-uid="Content.Server.Storage.Components.EntityStorageComponent.IsWeldedShut">IsWeldedShut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsWeldedShut { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_OccludesLight.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.OccludesLight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L105">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_OccludesLight_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.OccludesLight*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_OccludesLight" data-uid="Content.Server.Storage.Components.EntityStorageComponent.OccludesLight">OccludesLight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OccludesLight { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_Open.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.Open%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L116">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_Open_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Open*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_Open" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Open">Open</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Open { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_ShowContents.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.ShowContents%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L94">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_ShowContents_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.ShowContents*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_ShowContents" data-uid="Content.Server.Storage.Components.EntityStorageComponent.ShowContents">ShowContents</h4>
+  <div class="markdown level1 summary"><p>Determines if the container contents should be drawn when the container is closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShowContents { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_Activate_Content_Shared_Interaction_ActivateEventArgs_.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.Activate(Content.Shared.Interaction.ActivateEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L177">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_Activate_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Activate*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_Activate_Content_Shared_Interaction_ActivateEventArgs_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Activate(Content.Shared.Interaction.ActivateEventArgs)">Activate(ActivateEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Activate(ActivateEventArgs eventArgs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Interaction.ActivateEventArgs.html">ActivateEventArgs</a></td>
+        <td><span class="parametername">eventArgs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_AddToContents_Robust_Shared_GameObjects_EntityUid_.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.AddToContents(Robust.Shared.GameObjects.EntityUid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L343">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_AddToContents_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.AddToContents*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_AddToContents_Robust_Shared_GameObjects_EntityUid_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.AddToContents(Robust.Shared.GameObjects.EntityUid)">AddToContents(EntityUid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool AddToContents(EntityUid entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_CanClose_Robust_Shared_GameObjects_EntityUid_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.CanClose(Robust.Shared.GameObjects.EntityUid%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L204">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_CanClose_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.CanClose*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_CanClose_Robust_Shared_GameObjects_EntityUid_System_Boolean_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.CanClose(Robust.Shared.GameObjects.EntityUid,System.Boolean)">CanClose(EntityUid, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanClose(EntityUid user, bool silent = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">silent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_CanInsert_Robust_Shared_GameObjects_EntityUid_.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.CanInsert(Robust.Shared.GameObjects.EntityUid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L413">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_CanInsert_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.CanInsert*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_CanInsert_Robust_Shared_GameObjects_EntityUid_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.CanInsert(Robust.Shared.GameObjects.EntityUid)">CanInsert(EntityUid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanInsert(EntityUid entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_CanOpen_Robust_Shared_GameObjects_EntityUid_System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.CanOpen(Robust.Shared.GameObjects.EntityUid%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L182">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_CanOpen_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.CanOpen*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_CanOpen_Robust_Shared_GameObjects_EntityUid_System_Boolean_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.CanOpen(Robust.Shared.GameObjects.EntityUid,System.Boolean)">CanOpen(EntityUid, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanOpen(EntityUid user, bool silent = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">silent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_CloseStorage.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.CloseStorage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L224">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_CloseStorage_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.CloseStorage*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_CloseStorage" data-uid="Content.Server.Storage.Components.EntityStorageComponent.CloseStorage">CloseStorage()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void CloseStorage()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_ContentsDumpPosition.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.ContentsDumpPosition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L358">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_ContentsDumpPosition_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.ContentsDumpPosition*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_ContentsDumpPosition" data-uid="Content.Server.Storage.Components.EntityStorageComponent.ContentsDumpPosition">ContentsDumpPosition()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Vector2 ContentsDumpPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Maths.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_DetermineCollidingEntities.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.DetermineCollidingEntities%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L476">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_DetermineCollidingEntities_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.DetermineCollidingEntities*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_DetermineCollidingEntities" data-uid="Content.Server.Storage.Components.EntityStorageComponent.DetermineCollidingEntities">DetermineCollidingEntities()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual IEnumerable&lt;EntityUid&gt; DetermineCollidingEntities()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Robust.Shared.GameObjects.EntityUid</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_Initialize.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L159">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_Initialize_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Initialize*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_Initialize" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Robust.Shared.GameObjects.Component.Initialize()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_Insert_Robust_Shared_GameObjects_EntityUid_.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.Insert(Robust.Shared.GameObjects.EntityUid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L399">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_Insert_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Insert*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_Insert_Robust_Shared_GameObjects_EntityUid_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Insert(Robust.Shared.GameObjects.EntityUid)">Insert(EntityUid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Insert(EntityUid entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_OpenStorage.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.OpenStorage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L295">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_OpenStorage_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.OpenStorage*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_OpenStorage" data-uid="Content.Server.Storage.Components.EntityStorageComponent.OpenStorage">OpenStorage()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OpenStorage()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_Remove_Robust_Shared_GameObjects_EntityUid_.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.Remove(Robust.Shared.GameObjects.EntityUid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L393">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_Remove_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Remove*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_Remove_Robust_Shared_GameObjects_EntityUid_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Remove(Robust.Shared.GameObjects.EntityUid)">Remove(EntityUid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(EntityUid entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_ToggleOpen_Robust_Shared_GameObjects_EntityUid_.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.ToggleOpen(Robust.Shared.GameObjects.EntityUid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L212">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_ToggleOpen_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.ToggleOpen*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_ToggleOpen_Robust_Shared_GameObjects_EntityUid_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.ToggleOpen(Robust.Shared.GameObjects.EntityUid)">ToggleOpen(EntityUid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleOpen(EntityUid user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_TryCloseStorage_Robust_Shared_GameObjects_EntityUid_.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.TryCloseStorage(Robust.Shared.GameObjects.EntityUid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L385">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_TryCloseStorage_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.TryCloseStorage*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_TryCloseStorage_Robust_Shared_GameObjects_EntityUid_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.TryCloseStorage(Robust.Shared.GameObjects.EntityUid)">TryCloseStorage(EntityUid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool TryCloseStorage(EntityUid user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_TryOpenStorage_Robust_Shared_GameObjects_EntityUid_.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.TryOpenStorage(Robust.Shared.GameObjects.EntityUid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L378">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_TryOpenStorage_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.TryOpenStorage*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_TryOpenStorage_Robust_Shared_GameObjects_EntityUid_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.TryOpenStorage(Robust.Shared.GameObjects.EntityUid)">TryOpenStorage(EntityUid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool TryOpenStorage(EntityUid user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.GameObjects.EntityUid</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent_Content_Shared_Acts_IDestroyAct_OnDestroy_Content_Shared_Acts_DestructionEventArgs_.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent.Content%23Shared%23Acts%23IDestroyAct%23OnDestroy(Content.Shared.Acts.DestructionEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L470">View Source</a>
+  </span>
+  <a id="Content_Server_Storage_Components_EntityStorageComponent_Content_Shared_Acts_IDestroyAct_OnDestroy_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Content#Shared#Acts#IDestroyAct#OnDestroy*"></a>
+  <h4 id="Content_Server_Storage_Components_EntityStorageComponent_Content_Shared_Acts_IDestroyAct_OnDestroy_Content_Shared_Acts_DestructionEventArgs_" data-uid="Content.Server.Storage.Components.EntityStorageComponent.Content#Shared#Acts#IDestroyAct#OnDestroy(Content.Shared.Acts.DestructionEventArgs)">IDestroyAct.OnDestroy(DestructionEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IDestroyAct.OnDestroy(DestructionEventArgs eventArgs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Acts.DestructionEventArgs.html">DestructionEventArgs</a></td>
+        <td><span class="parametername">eventArgs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="../Content.Shared/Content.Shared.Interaction.IActivate.html">IActivate</a>
+  </div>
+  <div>
+      <a class="xref" href="Content.Server.Storage.Components.IStorageComponent.html">IStorageComponent</a>
+  </div>
+  <div>
+      <span class="xref">Robust.Shared.GameObjects.IComponent</span>
+  </div>
+  <div>
+      <a class="xref" href="../Content.Shared/Content.Shared.Interaction.IInteractUsing.html">IInteractUsing</a>
+  </div>
+  <div>
+      <a class="xref" href="../Content.Shared/Content.Shared.Acts.IDestroyAct.html">IDestroyAct</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/new/master/apiSpec/new?filename=Content_Server_Storage_Components_EntityStorageComponent.md&amp;value=---%0Auid%3A%20Content.Server.Storage.Components.EntityStorageComponent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Storage/Components/EntityStorageComponent.cs/#L34" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
