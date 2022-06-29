@@ -5,7 +5,7 @@
          MinSize="200 128">
     <PanelContainer>
         <PanelContainer.PanelOverride>
-            <gfx:StyleBoxFlat BackgroundColor="#25252AAA" />
+            <gfx:StyleBoxFlat BackgroundColor="#25252ABB" />
         </PanelContainer.PanelOverride>
 
         <BoxContainer Orientation="Vertical">
